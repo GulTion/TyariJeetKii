@@ -7,5 +7,3 @@
 - Healthy diet
 - Law (@yash)
 - Mini projects of various kinds
-- from obsidian
-- dekhiye sir mene yha kuch kiya
