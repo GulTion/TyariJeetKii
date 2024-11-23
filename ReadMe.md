@@ -7,4 +7,3 @@
 - Healthy diet
 - Law (@yash)
 - Mini projects of various kinds
-- to be deleted
