@@ -7,3 +7,4 @@
 - Healthy diet
 - Law (@yash)
 - Mini projects of various kinds
+- from obsidian
