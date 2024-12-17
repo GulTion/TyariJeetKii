@@ -4,21 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "fdc65274b1175d33",
+        "id": "8d645137edcab3b2",
         "type": "tabs",
         "children": [
           {
-            "id": "3045c175aaba21a2",
+            "id": "a9e83bb602b428e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CF 1600/D_Find_the_Different_Ones.md",
+                "file": "CP Course Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "D_Find_the_Different_Ones"
+              "title": "CP Course Index"
+            }
+          },
+          {
+            "id": "9b9802e00382e009",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {},
+              "icon": "gear",
+              "title": "Style Settings"
             }
           }
         ]
@@ -160,7 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 331
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,16 +185,23 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "3045c175aaba21a2",
+  "active": "bddfe6f3e29caeb1",
   "lastOpenFiles": [
+    "ReadMe.md",
+    "CP Course Index.md",
+    "Samsung RandD",
+    "CF 1600/D_Find_the_Different_Ones.md",
+    "CF 1600/Max_Circular_Subarray_Sum.bin",
+    "CF 1600/Max_Circular_Subarray_Sum.cpp",
+    "CF 1600/temp.json",
+    "CP Course",
+    "CF 1600/D_Three_Activities.bin",
     "CF 1600/D_Three_Activities.cpp",
     "CF 1600/D_Find_the_Different_Ones.cpp",
-    "CF 1600/D_Find_the_Different_Ones.md",
     "CF 1600/sample.md",
     "My%20code%20file.ts.md",
     "My code file.ts",
     "CF 1600/Untitled.md",
-    "ReadMe.md",
     "CF 1600",
     "ab.md",
     "Welcome.md"

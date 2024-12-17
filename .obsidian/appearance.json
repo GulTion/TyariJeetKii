@@ -1,5 +1,9 @@
 {
   "cssTheme": "AnuPpuccin",
   "theme": "obsidian",
-  "accentColor": "#294ee0"
+  "accentColor": "#294ee0",
+  "enabledCssSnippets": [
+    "floating-search-bar",
+    "floating-status-bar"
+  ]
 }
