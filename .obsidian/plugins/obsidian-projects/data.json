@@ -112,6 +112,41 @@
       ],
       "id": "55d11a82-6fee-45dc-b220-6bb2410a6287",
       "name": "CF 1600"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Samsung RandD",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "06f3675d-830b-4669-b443-5797af4efd64",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "003c07b5-6a43-4f57-8a71-c947965866d0",
+      "name": "Samsung RandD"
     }
   ],
   "archives": [],

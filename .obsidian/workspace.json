@@ -4,31 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8d645137edcab3b2",
+        "id": "82842a244c0e6176",
         "type": "tabs",
         "children": [
           {
-            "id": "a9e83bb602b428e3",
+            "id": "f20ab9b01521581b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CP Course Index.md",
+                "file": "SamsungPractice/README1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CP Course Index"
-            }
-          },
-          {
-            "id": "9b9802e00382e009",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {},
-              "icon": "gear",
-              "title": "Style Settings"
+              "title": "README1"
             }
           }
         ]
@@ -149,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ReadMe.md"
+                "file": "SamsungPractice/README1.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of ReadMe"
+              "title": "Outline of README1"
             }
           },
           {
@@ -187,23 +177,49 @@
   },
   "active": "bddfe6f3e29caeb1",
   "lastOpenFiles": [
-    "ReadMe.md",
-    "CP Course Index.md",
-    "Samsung RandD",
-    "CF 1600/D_Find_the_Different_Ones.md",
-    "CF 1600/Max_Circular_Subarray_Sum.bin",
-    "CF 1600/Max_Circular_Subarray_Sum.cpp",
-    "CF 1600/temp.json",
-    "CP Course",
-    "CF 1600/D_Three_Activities.bin",
-    "CF 1600/D_Three_Activities.cpp",
-    "CF 1600/D_Find_the_Different_Ones.cpp",
-    "CF 1600/sample.md",
-    "My%20code%20file.ts.md",
-    "My code file.ts",
-    "CF 1600/Untitled.md",
-    "CF 1600",
-    "ab.md",
-    "Welcome.md"
+    "SamsungPractice/06/solution.cpp",
+    "Samsung RandD/Travelling SalesPerson.md",
+    "SamsungPractice/SWC_attempt2/spaceshipBomb.cpp",
+    "SamsungPractice/SWC_attempt2/rockClimbing.cpp",
+    "SamsungPractice/SWC_attempt2/rareElements.cpp",
+    "SamsungPractice/SWC_attempt2/questions.txt",
+    "SamsungPractice/SWC_attempt2/pillarPipe.cpp",
+    "SamsungPractice/SWC_attempt2/omniousNumber.cpp",
+    "SamsungPractice/SWC_attempt2/oldPhone.cpp",
+    "SamsungPractice/SWC_attempt2/MrLee.cpp",
+    "SamsungPractice/SWC_attempt2/MrKim.cpp",
+    "SamsungPractice/SWC_attempt2/frogJump.cpp",
+    "SamsungPractice/32/Problem Statement/7.jpeg",
+    "SamsungPractice/32/Problem Statement/6.jpeg",
+    "SamsungPractice/32/Problem Statement/5.jpeg",
+    "SamsungPractice/32/Problem Statement/4.jpeg",
+    "SamsungPractice/32/Problem Statement/3.jpeg",
+    "SamsungPractice/32/Problem Statement/2.jpeg",
+    "SamsungPractice/32/Problem Statement/1.jpeg",
+    "SamsungPractice/README1.md",
+    "SamsungPractice/README.md",
+    "Clippings/SAMSUNG Questions.md",
+    "Samsung RandD/Punch-InOut.md",
+    "Samsung RandD/Interesting Triplets.md",
+    "Samsung RandD/Given Away.md",
+    "Samsung RandD/Froggie Can Only Jump Forward.md",
+    "Samsung RandD/Damaged Tags.md",
+    "Samsung RandD/Weird Subarray.md",
+    "Samsung RandD/Terror in Terminus.md",
+    "Samsung RandD/Not Number Theory.md",
+    "Samsung RandD/Gain with Pain.md",
+    "Samsung RandD/Aragorn is Gone.md",
+    "Samsung RandD/Mathematician Montu.md",
+    "Samsung RandD/King of Prime.md",
+    "Samsung RandD/It's ... Shopping Time.md",
+    "Samsung RandD/a+b-cd+e=23.md",
+    "Samsung RandD/Maximum Placement.md",
+    "Samsung RandD/Zero Statistica.md",
+    "Samsung RandD/3 in 1 Data Structure.md",
+    "Samsung RandD/Panjul's Numbers.md",
+    "Samsung RandD/Falling ball.md",
+    "Samsung RandD/Superhuman (Gravity Control).md",
+    "Samsung RandD/classic 01 Knapsack.md",
+    "Pasted image 20241218120331.png"
   ]
 }
