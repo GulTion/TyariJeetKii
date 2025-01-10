@@ -24,23 +24,23 @@ In case you forget about what is stack, queue, and priority queue, we provide li
 Link to learn [Stack and Queue](https://www.hackerrank.com/external_redirect?to=https://www.hackerearth.com/notes/stacks-and-queues/)  
 Link to learn [Priority Queue](https://www.hackerrank.com/external_redirect?to=https://www.hackerearth.com/notes/heaps-and-priority-queues/)
 
-Now you asked by your friend to do some queries.  
+Now you asked by your friend to do some N queries.  
 There are 3 kinds of queries :  
-1\. "1 " - Add number into stack, queue, and min priority queues  
+1\. "1 x" - Add number x into stack, queue, and min priority queues  
 2\. "2" - Remove top element from stack, front element from queue, and minimum element from priority queue. If not possible, print "impossible" (without the quotes).  
 3\. "3" - Print top element from stack, front element from queue, and min element from priority queues in format "x y z", where x is stack's top element, y is queue's front element, and z is priority queue's front/minimum element. If not possible, print "empty" (without the quotes).
 
 **Constraint :**  
-1 ≤ ≤ 100000  
-1 ≤ ≤ 100000
+1 ≤ N≤ 100000  
+1 ≤ x≤ 100000
 
 **Notes :**  
 For exercise purpose, please don't use library, but you can make stack, queue, and priority queue from scratch. Yes, you can take a look from link that we provide above.
 
 **Input Format**
 
-The first line contains the integer , that is number of queries.  
-The next lines will each contain a query like the ones mentioned above.
+The first line contains the integer N, that is number of queries.  
+The next N lines will each contain a query like the ones mentioned above.
 
 **Output Format**
 

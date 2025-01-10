@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "82842a244c0e6176",
+        "id": "dd8ecb2136b50f30",
         "type": "tabs",
         "children": [
           {
-            "id": "f20ab9b01521581b",
+            "id": "a9e7685eb550f332",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SamsungPractice/README1.md",
+                "file": "ReadMe.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README1"
+              "title": "ReadMe"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SamsungPractice/README1.md"
+                "file": "Samsung RandD/media/Given Away.pdf"
               },
               "icon": "lucide-list",
-              "title": "Outline of README1"
+              "title": "Outline of Given Away"
             }
           },
           {
@@ -175,20 +175,37 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "bddfe6f3e29caeb1",
+  "active": "a9e7685eb550f332",
   "lastOpenFiles": [
-    "SamsungPractice/06/solution.cpp",
+    "ReadMe.md",
+    "CP Course/hackattic/Reading QR challenge  hackattic.md",
+    "CP Course/hackattic/Reading QR challenge.cpp",
+    "CP Course/hackattic/Untitled.md",
+    "Clippings/Important and Useful links from all over the LeetCode - LeetCode Discuss.md",
+    "Samsung RandD/3 in 1 Data Structure.md",
+    "Clippings/1.4 — Variable assignment and initialization – Learn C++.md",
+    "Samsung RandD/3 in 1 Data Structre.cpp",
+    "Samsung RandD/Flip Columns For Maximum Number of Equal Rows - LeetCode.md",
+    "CP Course/CB CP/0.CSTLQuizI (Quiz).md",
+    "Samsung RandD/Given Away.md",
+    "Samsung RandD/media/Given Away.pdf",
+    "CP Course/CB CP/4.🔥 Challenges - STL.md",
+    "TimeTable.md",
+    "CP Course/CB CP.md",
+    "CP Course/CB CP",
+    "Untitled",
+    "SamsungPractice/spaceship bomb.cpp",
+    "Samsung RandD/LRU Cache - LeetCode.md",
+    "Samsung RandD/Maximum Number of Moves in a Grid - LeetCode.md",
+    "Samsung RandD/Is Graph Bipartite - LeetCode.md",
+    "SamsungPractice/sinkhole.cpp",
+    "SamsungPractice/chess piece.cpp",
+    "SamsungPractice/aggressive cow.cpp",
+    "SamsungPractice/aggresiveCow.cpp",
+    "Samsung RandD/Chess.md",
+    "Samsung RandD/Chess.md",
+    "SamsungPractice/README1.md",
     "Samsung RandD/Travelling SalesPerson.md",
-    "SamsungPractice/SWC_attempt2/spaceshipBomb.cpp",
-    "SamsungPractice/SWC_attempt2/rockClimbing.cpp",
-    "SamsungPractice/SWC_attempt2/rareElements.cpp",
-    "SamsungPractice/SWC_attempt2/questions.txt",
-    "SamsungPractice/SWC_attempt2/pillarPipe.cpp",
-    "SamsungPractice/SWC_attempt2/omniousNumber.cpp",
-    "SamsungPractice/SWC_attempt2/oldPhone.cpp",
-    "SamsungPractice/SWC_attempt2/MrLee.cpp",
-    "SamsungPractice/SWC_attempt2/MrKim.cpp",
-    "SamsungPractice/SWC_attempt2/frogJump.cpp",
     "SamsungPractice/32/Problem Statement/7.jpeg",
     "SamsungPractice/32/Problem Statement/6.jpeg",
     "SamsungPractice/32/Problem Statement/5.jpeg",
@@ -196,30 +213,12 @@
     "SamsungPractice/32/Problem Statement/3.jpeg",
     "SamsungPractice/32/Problem Statement/2.jpeg",
     "SamsungPractice/32/Problem Statement/1.jpeg",
-    "SamsungPractice/README1.md",
     "SamsungPractice/README.md",
     "Clippings/SAMSUNG Questions.md",
     "Samsung RandD/Punch-InOut.md",
     "Samsung RandD/Interesting Triplets.md",
-    "Samsung RandD/Given Away.md",
     "Samsung RandD/Froggie Can Only Jump Forward.md",
     "Samsung RandD/Damaged Tags.md",
-    "Samsung RandD/Weird Subarray.md",
-    "Samsung RandD/Terror in Terminus.md",
-    "Samsung RandD/Not Number Theory.md",
-    "Samsung RandD/Gain with Pain.md",
-    "Samsung RandD/Aragorn is Gone.md",
-    "Samsung RandD/Mathematician Montu.md",
-    "Samsung RandD/King of Prime.md",
-    "Samsung RandD/It's ... Shopping Time.md",
-    "Samsung RandD/a+b-cd+e=23.md",
-    "Samsung RandD/Maximum Placement.md",
-    "Samsung RandD/Zero Statistica.md",
-    "Samsung RandD/3 in 1 Data Structure.md",
-    "Samsung RandD/Panjul's Numbers.md",
-    "Samsung RandD/Falling ball.md",
-    "Samsung RandD/Superhuman (Gravity Control).md",
-    "Samsung RandD/classic 01 Knapsack.md",
     "Pasted image 20241218120331.png"
   ]
 }
