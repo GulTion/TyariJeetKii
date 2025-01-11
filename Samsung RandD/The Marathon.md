@@ -1,13 +1,14 @@
 ---
-title: "Solve The Marathon"
-source: "https://www.hackerrank.com/contests/code-the-next/challenges/the-marathon"
+title: Solve The Marathon
+source: https://www.hackerrank.com/contests/code-the-next/challenges/the-marathon
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "How many streets are there such that if we start from the middle of any of them we will be able to walk as long as we like."
+description: How many streets are there such that if we start from the middle of any of them we will be able to walk as long as we like.
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 
 > [!Warning] Incomplete

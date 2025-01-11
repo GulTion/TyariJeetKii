@@ -1,13 +1,14 @@
 ---
-title: "Solve 3 in 1 Data Structure"
-source: "https://www.hackerrank.com/contests/srin-aadc01/challenges/3-in-1-data-structure"
+title: Solve 3 in 1 Data Structure
+source: https://www.hackerrank.com/contests/srin-aadc01/challenges/3-in-1-data-structure
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "Learn about Stack, Queue, and Priority Queue in one problem. Thats why I called it 3 in 1"
+description: Learn about Stack, Queue, and Priority Queue in one problem. Thats why I called it 3 in 1
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 ## 3 in 1 Data Structure
 

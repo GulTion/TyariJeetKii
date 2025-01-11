@@ -1,13 +1,14 @@
 ---
-title: "Solve Challenges"
-source: "https://www.hackerrank.com/contests/codeshala-pps-24/challenges/chocolate-distribution-problem-4"
+title: Solve Challenges
+source: https://www.hackerrank.com/contests/codeshala-pps-24/challenges/chocolate-distribution-problem-4
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "Print the total number of challenges created by hackers."
+description: Print the total number of challenges created by hackers.
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 ## Chocolate Distribution Problem 4
 

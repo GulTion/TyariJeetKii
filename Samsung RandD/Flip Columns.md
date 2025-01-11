@@ -1,13 +1,14 @@
 ---
-title: "Solve Flip Columns"
-source: "https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/flip-columns"
+title: Solve Flip Columns
+source: https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/flip-columns
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "Flip"
+description: Flip
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 ## Flip Columns
 

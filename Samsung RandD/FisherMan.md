@@ -3,25 +3,28 @@ title: HackerRank
 source: https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/fisherman/problem
 author:
   - "[[FisherMan]]"
-published: 
+published:
 created: 2024-12-18
 description: Join over 11 million developers in solving code challenges on HackerRank, one of the best ways to prepare for programming interviews.
 tags:
   - clippings
+status: ""
 ---
-There are N fishing spots and 3 gates. At each gate there are some fishermen waiting to reach the nearest unoccupied fishing spot. (Total no of fisherman <=N)
+There are $N$ fishing spots and 3 gates. At each gate there are some fishermen waiting to reach the nearest unoccupied fishing spot. (Total no of fisherman $<=N$)
 
-Distance between consecutive spots = distance between gate and nearest spot = 1 m
+Distance between consecutive spots = distance between gate and nearest spot = $1 m$
 
 Only 1 gate can be opened(other gates after that gate) at a time and all fishermen of that gate must occupy the spots before the next gate is opened.
 
 Distance is calculated as gate to nearest spot + nearest spot to closest vacant spot. Find the total sum of minimum distances need to walk for all the fishermen.
 
-![image](https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2018-09-16-at-12.50.23-PM-1.png)
+![[Pasted image 20250110234019.png]]
 
 **Input Format**
 
-Number of fishing spots, N Position of the gates, Gi, 1 < i < 3 Number of fishermen at each gates, G_n_i
+- Number of fishing spots, $N$ 
+- Position of the gates, $G_i, 1 < i < 3$
+- Number of fishermen at each gates, $G_{n_i}$
 
 **Constraints**
 

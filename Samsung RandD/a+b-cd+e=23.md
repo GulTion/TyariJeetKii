@@ -1,13 +1,14 @@
 ---
-title: "Solve a+b-c*d+e=23"
-source: "https://www.hackerrank.com/contests/srin-aadc02/challenges/ab-cde23"
+title: Solve a+b-c*d+e=23
+source: https://www.hackerrank.com/contests/srin-aadc02/challenges/ab-cde23
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "a+b-c*d+e=23"
+description: a+b-c*d+e=23
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 ## a+b-c\*d+e=23
 

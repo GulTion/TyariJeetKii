@@ -1,3 +1,0 @@
-- [ ] 2 Problem of Samsung RandD
-- [ ] 1 subtopic/folder of CB CP
-- [ ] 33%/Week in TLE Eli. Course

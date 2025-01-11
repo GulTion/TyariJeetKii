@@ -1,13 +1,14 @@
 ---
-title: "Solve Bug in a Cineplex"
-source: "https://www.hackerrank.com/contests/srbd-code-contest-2022-round-1/challenges/bug-in-a-cineplex"
+title: Solve Bug in a Cineplex
+source: https://www.hackerrank.com/contests/srbd-code-contest-2022-round-1/challenges/bug-in-a-cineplex
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "Basic geometry, binary search"
+description: Basic geometry, binary search
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 ## Bug in a Cineplex
 

@@ -1,13 +1,14 @@
 ---
-title: "Solve Panjul's Numbers"
-source: "https://www.hackerrank.com/contests/srin-aadc01/challenges/panjuls-numbers"
+title: Solve Panjul's Numbers
+source: https://www.hackerrank.com/contests/srin-aadc01/challenges/panjuls-numbers
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "What's in the bag?"
+description: What's in the bag?
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 ## Panjul's Numbers
 

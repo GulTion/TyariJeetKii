@@ -1,13 +1,14 @@
 ---
-title: "Solve Building a Research and Development Center"
-source: "https://www.hackerrank.com/contests/srbd-code-contest-2022-round-1/challenges/building-a-research-and-development-center"
+title: Solve Building a Research and Development Center
+source: https://www.hackerrank.com/contests/srbd-code-contest-2022-round-1/challenges/building-a-research-and-development-center
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "Samsung wants to build a new R&D center and operate it smoothly."
+description: Samsung wants to build a new R&D center and operate it smoothly.
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 ## Building a Research and Development Center
 

@@ -1,13 +1,14 @@
 ---
-title: "Solve Primes in Range"
-source: "https://www.hackerrank.com/contests/srbd-code-contest-2022-round-1/challenges/primes-in-range"
+title: Solve Primes in Range
+source: https://www.hackerrank.com/contests/srbd-code-contest-2022-round-1/challenges/primes-in-range
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "Number of Prime in a given range"
+description: Number of Prime in a given range
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 ## Primes in Range
 

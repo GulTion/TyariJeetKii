@@ -1,13 +1,14 @@
 ---
-title: "Solve Sum of Nodes in Kth Level"
-source: "https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/sum-of-nodes-in-kth-level"
+title: Solve Sum of Nodes in Kth Level
+source: https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/sum-of-nodes-in-kth-level
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "Sum of Nodes in Kth Level"
+description: Sum of Nodes in Kth Level
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 Given an integer ‘K’ and a tree in string format. print the sum of all elements at Kth level from root.
 

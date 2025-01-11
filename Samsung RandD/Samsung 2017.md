@@ -1,13 +1,14 @@
 ---
-title: "Solve Challenges"
-source: "https://www.hackerrank.com/contests/codeshala-pps-24/challenges/samsung-2017"
+title: Solve Challenges
+source: https://www.hackerrank.com/contests/codeshala-pps-24/challenges/samsung-2017
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "Print the total number of challenges created by hackers."
+description: Print the total number of challenges created by hackers.
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 ## Samsung 2017
 

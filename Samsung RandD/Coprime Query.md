@@ -1,13 +1,14 @@
 ---
-title: "Solve Coprime Query"
-source: "https://www.hackerrank.com/contests/srbd-code-contest-2022-round-1/challenges/coprime-query"
+title: Solve Coprime Query
+source: https://www.hackerrank.com/contests/srbd-code-contest-2022-round-1/challenges/coprime-query
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "Number theory, Inclusion-exclusion"
+description: Number theory, Inclusion-exclusion
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 ## Coprime Query
 

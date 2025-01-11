@@ -1,13 +1,14 @@
 ---
-title: "Solve Challenges"
-source: "https://www.hackerrank.com/contests/srin-aadc03/challenges/classic-hanoi-tower"
+title: Solve Challenges
+source: https://www.hackerrank.com/contests/srin-aadc03/challenges/classic-hanoi-tower
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "Print the total number of challenges created by hackers."
+description: Print the total number of challenges created by hackers.
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 ## classic Hanoi Tower
 

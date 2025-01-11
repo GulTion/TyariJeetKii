@@ -1,13 +1,14 @@
 ---
-title: "Chess"
-source: "https://www.cnblogs.com/kingshow123/p/practicec2.html"
+title: Chess
+source: https://www.cnblogs.com/kingshow123/p/practicec2.html
 author:
   - "[[kingshow]]"
 published: 2015-05-27T17:16:00.0000000&#x2B;08:00
 created: 2024-12-18
-description: "There is a mobile piece and a stationary piece on the N&#215;M chessboard. The available moves of the mobile piece are the same as set out in the imag"
+description: There is a mobile piece and a stationary piece on the N&#215;M chessboard. The available moves of the mobile piece are the same as set out in the imag
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 There is a mobile piece and a stationary piece on the N×M chessboard. The available moves of the mobile piece are the same as set out in the image below. You need to capture the stationary piece by moving the mobile piece with the minimum amount of moves.  
   

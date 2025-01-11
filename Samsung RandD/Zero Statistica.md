@@ -1,13 +1,14 @@
 ---
-title: "Solve Zero Statistica"
-source: "https://www.hackerrank.com/contests/srin-aadc01/challenges/zero-statistica"
+title: Solve Zero Statistica
+source: https://www.hackerrank.com/contests/srin-aadc01/challenges/zero-statistica
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "From Zero to Hero!"
+description: From Zero to Hero!
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 ## Zero Statistica
 

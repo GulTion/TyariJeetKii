@@ -1,13 +1,14 @@
 ---
-title: "Solve Hello Samsung!!!"
-source: "https://www.hackerrank.com/contests/srbd-code-contest-2022-round-1/challenges/hello-samsung/problem"
+title: Solve Hello Samsung!!!
+source: https://www.hackerrank.com/contests/srbd-code-contest-2022-round-1/challenges/hello-samsung/problem
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "adhoc"
+description: adhoc
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 ## Hello Samsung!!!
 

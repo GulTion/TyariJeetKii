@@ -1,13 +1,14 @@
 ---
-title: "Solve Endoscope"
-source: "https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/endoscope"
+title: Solve Endoscope
+source: https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/endoscope
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "Endoscope"
+description: Endoscope
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 Raka, a CSE student from IIITG developed an endoscope to explore inner part of ruined water pipes. It is possible explore the inner part of the pipes putting the endoscope into a certain part of the pipe. The endoscope can be moved in the pipes only. Meanwhile, when the pipes are connected to each other, if the length of the endoscope is long enough to explore, it is able to inspect the connected pipe. However, we cannot observe every pipe because the length of the endoscope is limited.
 

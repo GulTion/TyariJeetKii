@@ -3,11 +3,12 @@ title: HackerRank
 source: https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/aeroplane-bombing/problem
 author:
   - "[[Aeroplane Bombing]]"
-published: 
+published:
 created: 2024-12-18
 description: Join over 11 million developers in solving code challenges on HackerRank, one of the best ways to prepare for programming interviews.
 tags:
   - clippings
+status: ""
 ---
 You’ll be given a grid as below:
 

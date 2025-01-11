@@ -1,12 +1,13 @@
 ---
-title: "Leetcode 1197. Minimum Knight Moves"
-source: "https://leetcode.ca/all/1197.html"
+title: Leetcode 1197. Minimum Knight Moves
+source: https://leetcode.ca/all/1197.html
 author:
 published:
 created: 2024-12-18
-description: "Check Java/C++ solution and Company Tag of Leetcode 1197 for free。Unlock prime for Leetcode 1197"
+description: Check Java/C++ solution and Company Tag of Leetcode 1197 for free。Unlock prime for Leetcode 1197
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 All contents and pictures on this website come from the Internet and are updated regularly every week. They are for personal study and research only, and should not be used for commercial purposes. Thank you for your cooperation.
 

@@ -1,13 +1,14 @@
 ---
-title: "Solve Challenges"
-source: "https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/rock-climbing"
+title: Solve Challenges
+source: https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/rock-climbing
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "Print the total number of challenges created by hackers."
+description: Print the total number of challenges created by hackers.
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 ## Rock Climbing
 

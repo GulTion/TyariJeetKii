@@ -114,7 +114,14 @@
       "name": "CF 1600"
     },
     {
-      "fieldConfig": {},
+      "fieldConfig": {
+        "status": {
+          "options": [
+            "Pending",
+            "Complete"
+          ]
+        }
+      },
       "defaultName": "",
       "templates": [],
       "excludedNotes": [],
@@ -129,7 +136,20 @@
       "newNotesFolder": "",
       "views": [
         {
-          "config": {},
+          "config": {
+            "orderFields": [
+              "name",
+              "status",
+              "path",
+              "author",
+              "created",
+              "description",
+              "published",
+              "source",
+              "tags",
+              "title"
+            ]
+          },
           "filter": {
             "conjunction": "and",
             "conditions": []

@@ -3,11 +3,12 @@ title: Solve Kim and Refrigerators
 source: https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/kim-and-refrigerators
 author:
   - "[[FisherMan]]"
-published: 
+published:
 created: 2024-12-18
 description: Refrigerators
 tags:
   - clippings
+status: ""
 ---
 Mr. Kim has to deliver refrigerators to N customers. From the office, he is going to visit all the customers and then return to his home. Each location of the office, his home, and the customers is given in the form of integer coordinates \[x, y\],
 

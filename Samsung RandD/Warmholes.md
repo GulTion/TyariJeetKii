@@ -1,13 +1,14 @@
 ---
-title: "Solve Warmholes"
-source: "https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/warmholes"
+title: Solve Warmholes
+source: https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/warmholes
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "Warmholes"
+description: Warmholes
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 There is a source (S) and destination (D) and a spacecraft has to go from S to D. There are N number of wormholes in between which has following properties:
 

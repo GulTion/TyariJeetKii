@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "dd8ecb2136b50f30",
+        "id": "6d5a5e67f0a2c887",
         "type": "tabs",
         "children": [
           {
-            "id": "a9e7685eb550f332",
+            "id": "d4f64f4886c5d8c9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ReadMe.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ReadMe"
+              "title": "New tab"
             }
           }
         ]
@@ -52,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#dsu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +69,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -138,11 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Samsung RandD/media/Given Away.pdf"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Given Away"
+              "title": "Outline"
             }
           },
           {
@@ -156,11 +151,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 331
+    "width": 331,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,54 +168,55 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-projects:Open projects": false,
-      "vscode-editor:Create Code File": false
+      "vscode-editor:Create Code File": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a9e7685eb550f332",
+  "active": "d4f64f4886c5d8c9",
   "lastOpenFiles": [
-    "google.com.md",
-    "ReadMe.md",
+    "Samsung RandD/FisherMan.md",
+    "Samsung RandD/media/Pasted image 20250110234019.png",
+    "Excalidraw/Drawing 2025-01-10 23.39.08.excalidraw.md",
+    "Excalidraw",
+    "CF 1600/sample.md",
+    "CF 1600/Max_Circular_Subarray_Sum.cpp",
+    "CF 1600/D_Find_the_Different_Ones.cpp",
+    "CF 1600/D_Find_the_Different_Ones.md",
+    "CF 1600/D_Three_Activities.cpp",
+    "CP Course/CB CP/4.🔥 Challenges - STL.md",
+    "CP Course/CB CP/0.CSTLQuizI (Quiz).md",
     "CP Course/hackattic/Reading QR challenge  hackattic.md",
     "CP Course/hackattic/Reading QR challenge.cpp",
-    "CP Course/hackattic/Untitled.md",
+    "Clippings/ckeditorckeditor4 The best enterprise-grade WYSIWYG editor. Fully customizable with countless features and plugins..md",
     "Clippings/Important and Useful links from all over the LeetCode - LeetCode Discuss.md",
+    "Samsung RandD/Flappy Bird.md",
+    "Samsung RandD/King of Prime.md",
+    "Samsung RandD/Rhythmic Tune.md",
+    "Samsung RandD/Tallest Billboard - LeetCode.md",
     "Samsung RandD/3 in 1 Data Structure.md",
-    "Clippings/1.4 — Variable assignment and initialization – Learn C++.md",
     "Samsung RandD/3 in 1 Data Structre.cpp",
+    "Samsung RandD/Aragorn is Gone.md",
+    "CP Course Index.md",
+    "ReadMe.md",
+    "TimeTable.md",
+    "Pasted image 20241218120331.png",
+    "google.com.md",
+    "CP Course/hackattic/Untitled.md",
+    "Clippings/1.4 — Variable assignment and initialization – Learn C++.md",
     "Samsung RandD/Flip Columns For Maximum Number of Equal Rows - LeetCode.md",
-    "CP Course/CB CP/0.CSTLQuizI (Quiz).md",
     "Samsung RandD/Given Away.md",
     "Samsung RandD/media/Given Away.pdf",
-    "CP Course/CB CP/4.🔥 Challenges - STL.md",
-    "TimeTable.md",
     "CP Course/CB CP.md",
     "CP Course/CB CP",
     "Untitled",
     "SamsungPractice/spaceship bomb.cpp",
     "Samsung RandD/LRU Cache - LeetCode.md",
-    "Samsung RandD/Maximum Number of Moves in a Grid - LeetCode.md",
-    "Samsung RandD/Is Graph Bipartite - LeetCode.md",
-    "SamsungPractice/sinkhole.cpp",
-    "SamsungPractice/chess piece.cpp",
-    "SamsungPractice/aggressive cow.cpp",
-    "SamsungPractice/aggresiveCow.cpp",
-    "Samsung RandD/Chess.md",
-    "Samsung RandD/Chess.md",
-    "SamsungPractice/README1.md",
-    "Samsung RandD/Travelling SalesPerson.md",
     "SamsungPractice/32/Problem Statement/7.jpeg",
     "SamsungPractice/32/Problem Statement/6.jpeg",
     "SamsungPractice/32/Problem Statement/5.jpeg",
     "SamsungPractice/32/Problem Statement/4.jpeg",
     "SamsungPractice/32/Problem Statement/3.jpeg",
     "SamsungPractice/32/Problem Statement/2.jpeg",
-    "SamsungPractice/32/Problem Statement/1.jpeg",
-    "SamsungPractice/README.md",
-    "Clippings/SAMSUNG Questions.md",
-    "Samsung RandD/Punch-InOut.md",
-    "Samsung RandD/Interesting Triplets.md",
-    "Samsung RandD/Froggie Can Only Jump Forward.md",
-    "Samsung RandD/Damaged Tags.md",
-    "Pasted image 20241218120331.png"
+    "SamsungPractice/32/Problem Statement/1.jpeg"
   ]
 }

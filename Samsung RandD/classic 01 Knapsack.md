@@ -1,13 +1,14 @@
 ---
-title: "Solve classic 0/1 Knapsack"
-source: "https://www.hackerrank.com/contests/srin-aadc03/challenges/classic-01-knapsack"
+title: Solve classic 0/1 Knapsack
+source: https://www.hackerrank.com/contests/srin-aadc03/challenges/classic-01-knapsack
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "We need more gold!"
+description: We need more gold!
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 ## classic 0/1 Knapsack
 

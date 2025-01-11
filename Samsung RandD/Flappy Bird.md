@@ -1,13 +1,14 @@
 ---
-title: "Solve Flappy Bird"
-source: "https://www.hackerrank.com/contests/code-the-next/challenges/flappy-bird"
+title: Solve Flappy Bird
+source: https://www.hackerrank.com/contests/code-the-next/challenges/flappy-bird
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "Score as many points as possible with minimum number of screen taps in Flappy Bird."
+description: Score as many points as possible with minimum number of screen taps in Flappy Bird.
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 
 > [!Warning] Incomplete

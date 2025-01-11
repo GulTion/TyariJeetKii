@@ -1,12 +1,13 @@
 ---
-title: "Solve Mathematician Montu"
-source: "https://www.hackerrank.com/contests/srbd-code-contest-2024-round-1/challenges/mathematician-montu"
+title: Solve Mathematician Montu
+source: https://www.hackerrank.com/contests/srbd-code-contest-2024-round-1/challenges/mathematician-montu
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "None"
+description: None
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 ![[Mathematician Montu.pdf]]

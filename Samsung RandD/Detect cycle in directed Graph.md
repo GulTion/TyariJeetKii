@@ -1,13 +1,14 @@
 ---
-title: "HackerRank"
-source: "https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/detect-cycle-in-directed-graph/problem"
+title: HackerRank
+source: https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/detect-cycle-in-directed-graph/problem
 author:
   - "[[HackerRank]]"
 published:
 created: 2024-12-18
-description: "Join over 11 million developers in solving code challenges on HackerRank, one of the best ways to prepare for programming interviews."
+description: Join over 11 million developers in solving code challenges on HackerRank, one of the best ways to prepare for programming interviews.
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 Detect and print the cycle in ascending order. If there are multiple cycles, print the cycle with nodes' sum smallest.
 

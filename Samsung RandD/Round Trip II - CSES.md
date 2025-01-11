@@ -1,12 +1,13 @@
 ---
 title:
-source: "https://cses.fi/problemset/task/1678"
+source: https://cses.fi/problemset/task/1678
 author:
 published:
 created: 2024-12-18
 description:
 tags:
-  - "clippings"
+  - clippings
+status: ""
 ---
 CSES - Round Trip II
 
