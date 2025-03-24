@@ -1,0 +1,14 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "theme": "obsidian",
+  "accentColor": "#294ee0",
+  "enabledCssSnippets": [
+    "floating-search-bar",
+    "floating-status-bar"
+  ],
+  "interfaceFontFamily": "JetBrains Mono",
+  "textFontFamily": "JetBrains Mono",
+  "monospaceFontFamily": "JetBrains Mono",
+  "baseFontSizeAction": true,
+  "baseFontSize": 23
+}

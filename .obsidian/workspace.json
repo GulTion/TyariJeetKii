@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "17943388a2c8c037",
+    "type": "split",
+    "children": [
+      {
+        "id": "406cba6d0774b424",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15e1ab97986c6655",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Samsung RandD/Bug in a Cineplex.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bug in a Cineplex"
+            }
+          },
+          {
+            "id": "21dd0727542310c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Index"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e4be5e31c2f0c42d",
+    "type": "split",
+    "children": [
+      {
+        "id": "a3dc9029f4567d44",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9a5174f9e441250",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a9e50c9d00ef6ae9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "backtrac",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ddf24cec634f9158",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 299
+  },
+  "right": {
+    "id": "955165da5f608ab0",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b6f788dce851221",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "190c08a402ab2596",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ReadMe.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ReadMe"
+            }
+          },
+          {
+            "id": "da5a6e0bf266bde0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ReadMe.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from ReadMe"
+            }
+          },
+          {
+            "id": "92fc142ca8ef5ab9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "50293518a92861a9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 331,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-projects:Open projects": false,
+      "vscode-editor:Create Code File": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "smart-random-note:Open Random Note from Search": false,
+      "omnisearch:Omnisearch": false
+    }
+  },
+  "active": "21dd0727542310c4",
+  "lastOpenFiles": [
+    "media/5. All 1.csv",
+    "Index.md",
+    "media/5. All.csv",
+    "media",
+    "Samsung RandD/Sales booth.md",
+    "Samsung RandD/Samsung 2017.md",
+    "SRI/chaharnishant11/SamsungMobile(salesBooth).cpp",
+    "Samsung RandD/Automatic Fueling Robot.md",
+    "SRI/rldnjs7723-CodingTest/SWEA/13000/Solution_13084.java",
+    "SRI/fromTxt/B_Robot_Program.cpp",
+    "SRI/shreyanshchordia-Graph_Algorithms/Robotic Paths/README.md",
+    "Samsung RandD/media/Pasted image 20250308123107.png",
+    "Samsung RandD/media/Pasted image 20250308123057.png",
+    "Samsung RandD/media/Pasted image 20250308123044.png",
+    "Samsung RandD/media/Pasted image 20250308123031.png",
+    "Samsung RandD/media/Pasted image 20250308123019.png",
+    "SRI/fromTxt/Robot car fueling 7.md",
+    "Samsung RandD/Bug in a Cineplex.md",
+    "Samsung RandD/Robot And Fuel Problem.md",
+    "SRI/shreyanshchordia-Graph_Algorithms/RobotAndFuelProblem/main.cpp",
+    "SRI/chaharnishant11/RobotRefuling.cpp",
+    "Excalidraw/Drawing 2025-03-05 15.36.20.excalidraw.md",
+    "SRI/thePairedElectron/wormhole.cpp",
+    "SRI/thePairedElectron/clustering.cpp",
+    "SRI/thePairedElectron/AirplaneGame.cpp",
+    "Samsung RandD/Physical Energy Problem.md",
+    "Samsung RandD/Burst Balloons Optimally.md",
+    "Samsung RandD/Froggie Can Only Jump Forward.md",
+    "SamsungPractice/README1.md",
+    "Samsung RandD/Minimum Knight Moves - Leetcode 1197..md",
+    "SRI/shreyanshchordia-Graph_Algorithms/Knight-Tour-Problem/README.md",
+    "Clippings/SAMSUNG Questions.md",
+    "Clippings/Ann8497's Pastebin - Pastebin.com.md",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Oil Mines/readme.md",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Frog Jump/readme.md",
+    "SRI/shreyanshchordia-Graph_Algorithms/NetworkDelayTime/README.md",
+    "SRI/fromTxt/Mr. Kim.md",
+    "SRI/fromTxt/Marathon 4.md",
+    "SRI/fromTxt/Fishery 3.md",
+    "SRI/fromTxt/Endoscope 2.md",
+    "SamsungPractice/README.md",
+    "SamsungPractice/32/Problem Statement/7.jpeg",
+    "SamsungPractice/32/Problem Statement/6.jpeg",
+    "SamsungPractice/32/Problem Statement/5.jpeg",
+    "SamsungPractice/32/Problem Statement/4.jpeg",
+    "SamsungPractice/32/Problem Statement/3.jpeg"
+  ]
+}
