@@ -8,10 +8,10 @@ description: "文章浏览阅读575次。Samsung ADV:Airplane Game_generating a 
 tags:
   - "clippings"
 ---
-Airplane Game  
+# Airplane Game  
 There is an airplane game to avoid enemies and gather coins.  
 The height of the game map is N and the width is 5. And the game screen consists of game zone and control zone as shown in \[Fig. 1-1\].  
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/30761ad7247ad18343202cdc9db93ab0.png)
+![[Pasted image 20250330194958.png]]
 
 - Game zone: The area in black rectangle in \[Fig. 1-1\]. It always maintains the size 5\*5 and displays a part of the game map.
 - Control zone: The area in the blue rectangle in \[Fig. 1-1\]. It is the one line at the bottom where the airplane moves.

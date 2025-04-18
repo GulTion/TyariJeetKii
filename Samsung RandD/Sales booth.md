@@ -1,5 +1,7 @@
-Samsung wants to introduce the promotions in mobile sale.  They want to setup a booth to sell mobile phones.  They will club all areas of same mobile model with 1 single booth.   In areas (marked zero), where Samsung mobile is not established, they will consider selling the mobiles that are famous in adjacent areas of higher configuration.  
-We are given N*N matrix which can have a number between 0 and 5.
+Samsung wants to introduce the promotions in mobile sale.  They want to setup a booth to sell mobile phones.  They will club all areas of same mobile model with 1 single booth.   
+
+In areas (marked zero), where Samsung mobile is not established, they will consider selling the mobiles that are famous in adjacent areas of higher configuration.  
+We are given $N \times N$ matrix which can have a number between 0 and 5.
 
 5	5	1	4	4
 4	0	2	4	2
@@ -20,7 +22,7 @@ We need to consider selling the mobile that are famous in adjacent areas. In bel
 S3 mobile – 3
 S2 mobile – 2
 S1 mobile – 2
-
+``
 As S3 is famous in neighboring area, so S3 will be considered for selling at this location.
 
 0	0	2	0
@@ -63,6 +65,8 @@ Find clusters around “Zero” or “Group of Zeros” which are connected usin
 
 // GalaxyYesSix.cpp : Defines the entry point for the console application.
 //
+
+```cpp
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
@@ -306,6 +310,9 @@ int main()
 	}
 }
 
+```
+
+
 2)	DSF using Stack (Non Recursive):
 We can avoid recursive function calls by implementing our own stack. 
 
@@ -322,6 +329,7 @@ DFS(v)
                                                               push(s, w)
 
 
+
 3)	Breadth-First Search:
 We can find clusters around Zeros using BFS approach as well. BFS would need queue implementation.  
 
@@ -336,6 +344,7 @@ BFS(G,v) // Graph G, Starting point of search v
 			If u is not visited point, and value is same as pervious Node
 			insert u into queue, and indicate as visited
 
+```cpp
 
 #define _CRT_SECURE_NO_WARNINGS
 #define MAX 105
@@ -565,6 +574,7 @@ int main(void)
 
 	return 0;//Your program should return 0 on normal termination.
 }
+```
 
 sample_input
 

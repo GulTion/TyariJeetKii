@@ -423,7 +423,8 @@ Pseudo Algorithm
 
 If it is a Pump
 	Fill 2 Units of Fuel
-	Move in next direction(Gasoline right/Diesel left)
+	Move in next direction
+		(if Gasoline then move right/Diesel left)
 	Increment count
 If it is a Car
 	If fuel carried by  robot and car not same

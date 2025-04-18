@@ -8,7 +8,7 @@ created: 2024-12-18
 description: a+b-c*d+e=23
 tags:
   - clippings
-status: ""
+status: Complete
 explored: true
 ---
 ## a+b-c\*d+e=23
@@ -54,3 +54,35 @@ Possible
 There are many solutions to get number 23 from number 1 2 3 4 5.  
 5 - 2 + 3 \* 4 - 1 = 23  
 1 \* 2 + 4 \* 3 + 5 = 23
+
+
+## Approach (@GulTion)
+```cpp
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+bool solve(vector<int>& nums, int index, int result) {
+    if (index == 5) {
+        return result == 23;
+    }
+    
+    return solve(nums, index + 1, result + nums[index]) ||
+           solve(nums, index + 1, result - nums[index]) ||
+           solve(nums, index + 1, result * nums[index]);
+}
+
+int main() {
+    vector<int> nums(5);
+    for (int i = 0; i < 5; i++) {
+        cin >> nums[i];
+    }
+    
+    bool possible = solve(nums, 1, nums[0]);
+    cout << (possible ? "Possible" : "Impossible") << endl;
+    
+    return 0;
+}
+
+```
