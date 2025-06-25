@@ -13,12 +13,6 @@ explored: false
 ---
 ## Flip Columns
 
-locked
-
-- [Problem](https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/flip-columns)
-- [Submissions](https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/flip-columns/submissions)
-- [Discussions](https://www.hackerrank.com/contests/target-samsung-13-nov19/challenges/flip-columns/forum)
-
 A binary matrix of nxm was given, you have to toggle any column k number of times so that you can get the maximum number of rows having all 1’s.
 
 for eg, n=3, m=3,

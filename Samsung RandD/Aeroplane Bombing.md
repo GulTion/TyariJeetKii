@@ -117,15 +117,7 @@ For each test output single integer with format #test_number output
 ```
 
 
-# Approch
-## Approach 1
-
-The brute force approach would be considering 3 options (move left, move right and current) for all the rows without considering detonate. If we have N rows, the time complexity would be 3^N.
-By considering detonate, we can detonate bomb at any step. This means the time complexity would be N*3^N.
-Here, the maximum value would of N is 12.
-However, if we consider the top down approach, i.e. collecting the coins as the rows move down, we can prune away the tree paths as the score becomes zero.
-
-SAMPLE CODE (Image 2) 
+### Approach 1
 ```cpp
 #include <iostream> 
 using namespace std; 
@@ -165,12 +157,8 @@ void getMaxCoins(int pos, int coins, int n, int &maxCoins){
 	return; 
 	} 
 	else{ 
-	// 3 options 
-	// move right 
 	getMaxCoins(pos + 1, coins, n - 1, maxCoins); 
-	// move left 
 	getMaxCoins(pos - 1, coins, n - 1, maxCoins); 
-	// not move 
 	getMaxCoins(pos, coins, n - 1, maxCoins); 
 	} 
 }
@@ -192,29 +180,25 @@ int main(){
 		a[n][2] = 3; 
 		for (j = n - 1; j > 0 ; j--) {
 			coins = -1; 
-			//detonate 
 			detonate(j); 
 			getMaxCoins(2, 0, n, coins); 
 			if (coins > maxCoins) 
 				maxCoins = coins; 
 			unDetonate(j); 
-			// undetonate
 		} 
 		cout << ((maxCoins < 0) ? -1 : maxCoins) << endl; 
 	} 
 }
+```
 
-
-// MY CODE
-
-
+### MY CODE
+```cpp
 #include <iostream>
 
 using namespace std;
 
 int arr[13][5] = {0};
 int maxCoinVal = -1;
-//int mem[5][5] = {0};
 
 void detonate(int row){
     for(int r = row; r > row-5; r--){
@@ -288,47 +272,8 @@ int main()
 }
 ```
 
-
-## Approach 2
+### Approach 2
 ```cpp
-/*
-You’ll be given a grid as below:
-
-                       0 1 0 2 0 --> Non highlighted part
-                       0 2 2 2 1
-                       0 2 1 1 1
-                       1 0 1 0 0
-                       0 0 1 2 2
-                       1 1 0 0 1
-                       x x S x x  -->highlighted yellow
- In the grid above,     
-1: This cell has a coin.
-2: This cell has an enemy.
-0: It contains nothing.
-The highlighted(yellow) zone is the control zone. S is a spaceship that we need to control so that we can get maximum coins.
-Now, S’s initial position will be at the center and we can only move it right or left by one cell or do not move. At each time, the non-highlighted part of the grid will move down by one unit.
-We can also use a bomb but only once. If we use that, all the enemies in the 5×5 region above the control zone will be killed.
-If we use a bomb at the very beginning, the grid will look like this:
-
-0 1 0 2 0  --> Non highlighted part
-0 0 0 0 1
-0 0 1 1 1
-1 0 1 0 0
-0 0 1 0 0
-1 1 0 0 1
-x x S x x  --> highlighted yellow
- As soon as, the spaceship encounters an enemy or the entire grid has come down, the game ends.     
-For example,    
-At the very first instance, if we want to collect a coin we should move left **( coins=1)**. This is because when the grid comes down by 1 unit we have a coin on the second position and by moving left we can collect that coin. Next, we should move right to collect another coin **( coins=2)** .
-After this, remain at the same position **( coins=4)**.
-This is the current situation after collecting 4 coins.
-0 1 0 2 0                0 1 0 0 0
-0 2 2 2 1 -->after using 0 0 0 0 1
-x x S x x -->bomb        x x S x x
-Now, we can use the bomb to get out of this situation. After this, we can collect at most 1 coin. So maximum coins=5.
-*/
-
-
 #include <iostream>
 using namespace std;
 
@@ -341,11 +286,7 @@ bool valid(int r, int c){
 }
 
 int solve(int r, int c, int power, int effect){
-
-  // base case
   if(r<0)return 0;
-
-  // recursive case
   int ans = 0;
   int p = 0;
   for(int i = -1; i <=1; i++){
@@ -354,7 +295,6 @@ int solve(int r, int c, int power, int effect){
     int x = r-1;
     
     if(valid(x,y)){
-      // enemy 
       if(a[x][y] == 2){
          if(power == 0 && effect >  0){
             p = solve(x,y,power,effect -1);
@@ -363,7 +303,6 @@ int solve(int r, int c, int power, int effect){
            p = solve(x,y,power-1,5);
          }
       }
-      // not enemy
       if(a[x][y] == 1 ||a[x][y] == 0){
         if(power == 0)
         p = solve(x,y,power,effect-1);
@@ -392,79 +331,8 @@ int main() {
 }
 ```
 
-## Approach 3
+### Approach 3
 ```cpp
-/*
-
-You’ll be given a grid as below:
-
-
-    0 1 0 2 0
-
-    0 2 2 2 1
-
-    0 2 1 1 1
-
-    1 0 1 0 0
-
-    0 0 1 2 2
-
-    1 1 0 0 1
-
-    x x S x x
-
-
-   In the grid above,
-
-  1: This cell has a coin.
-
-  2: This cell has an enemy.
-
-  0: It contains nothing.
-
-  The highlighted(yellow) zone is the control zone. S is a spaceship that we need to control so that we can get maximum coins.
-  Now, S’s initial position will be at the center and we can only move it right or left by one cell or do not move.
-  At each time, the non-highlighted part of the grid will move down by one unit.
-  We can also use a bomb but only once. If we use that, all the enemies in the 5×5 region above the control zone will be killed.
-  If we use a bomb at the very beginning, the grid will look like this:
-
-
-    0 1 0 2 0
-
-    0 0 0 0 1
-
-    0 0 1 1 1
-
-    1 0 1 0 0
-
-    0 0 1 0 0
-
-    1 1 0 0 1
-
-    x x S x x
-
-
-  As soon as, the spaceship encounters an enemy or the entire grid has come down, the game ends.
-  For example,
-  At the very first instance, if we want to collect a coin we should move left( coins=1). This is because when the grid comes down by 1 unit we have a coin on the second position and by moving left we can collect that coin. Next, we should move right to collect another coin( coins=2).
-  After this, remain at the same position( coins=4).
-  This is the current situation after collecting 4 coins.
-
-    0 1 0 2 0 0 1 0 0 0
-
-    0 2 2 2 1 -->after using 0 0 0 0 1
-
-    x x S x x -->bomb x x S x x
-
-
-   Now, we can use the bomb to get out of this situation. After this, we can collect at most 1 coin. So maximum coins=5.
-
-*/
-
-
-
-
-
 #include <iostream>
 
 using namespace std;
@@ -477,11 +345,9 @@ bool bombUsed=false;
 
 void go_to(int i, int j, int coins){
     if(j<0 || j>=5){
-        //Went out of board
         return;
     }
     if(i==num_rows){
-        //Reached the end of grid
         if(coins>maxCoins)
             maxCoins=coins;
         return;
@@ -490,12 +356,10 @@ void go_to(int i, int j, int coins){
     int enemy_coord[25][2];
     if(grid[i][j]==2){
         if(bombUsed==true){
-            //Game over here
             if(coins>maxCoins)
                 maxCoins=coins;
             return;
         }else{
-            //Use the bomb now
             bombUsed=true;
             flag=1;
             for(int x=i; x<min(i+5,num_rows); x++){
@@ -546,67 +410,8 @@ int main(){
 }
 ```
 
-## Approach 4
+### Approach 4
 ```cpp
-/*
-https://www.careercup.com/question?id=5652067409461248
-https://www.geeksforgeeks.org/samsung-interview-experience-set-28-campus/
-
-http://ideone.com/JXMl4L
-https://ide.geeksforgeeks.org/tiyLThcuSN -> Zero
-https://ide.geeksforgeeks.org/3Ks1tpOkwn
-
-*https://code.hackerearth.com/ea07cfD?key=1cb190b158c79639d66d35f7dfa8ef7a -> One
-
-Similr Problem - https://ide.codingblocks.com/s/95965
-
-
-You’ll be given a grid as below:
-
-    0 1 0 2 0
-    0 2 2 2 1
-    0 2 1 1 1
-    1 0 1 0 0
-    0 0 1 2 2
-    1 1 0 0 1
-    x x S x x
-
-In the grid above,
-  1: This cell has a coin.
-  2: This cell has an enemy.
-  0: It contains nothing.
-
-  The highlighted(yellow) zone is the control zone. S is a spaceship that we need to control so that we can get
-  maximum coins.
-  Now, S’s initial position will be at the center and we can only move it right or left by one cell or do not move.
-  At each time, the non-highlighted part of the grid will move down by one unit.
-  We can also use a bomb but only once. If we use that, all the enemies in the 5×5 region above the control zone
-  will be killed.
-  If we use a bomb at the very beginning, the grid will look like this:
-
-    0 1 0 2 0
-    0 0 0 0 1
-    0 0 1 1 1
-    1 0 1 0 0
-    0 0 1 0 0
-    1 1 0 0 1
-    x x S x x
-
-  As soon as, the spaceship encounters an enemy or the entire grid has come down, the game ends.
-  For example,
-  At the very first instance, if we want to collect a coin we should move left( coins=1). This is because when the
-  grid comes down by 1 unit we have a coin on the second position and by moving left we can collect that coin.
-  Next, we should move right to collect another coin (coins=2).
-  After this, remain at the same position (coins=4).
-  This is the current situation after collecting 4 coins.
-
-    0 1 0 2 0 0 1 0 0 0
-    0 2 2 2 1 -->after using 0 0 0 0 1
-    x x S x x -->bomb x x S x x
-
-   Now, we can use the bomb to get out of this situation. After this, we can collect at most 1 coin. So maximum coins=5.
-*/
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -666,78 +471,15 @@ int main()
     for (int j = 0; j < 5; j++)
       grid[n][j] = 0;
 
-    // (-1,-1), (-1,0), (-1,1)
-    // pair<int,int> src = {n,n/2+1};
-
     dfs(n, 2, grid, n, 0, false, ans);
     cout << "#" << test_case << " " << ans << endl;
   }
   return 0;
 }
-
-
 ```
 
-##  Approach 5
+### Approach 5
 ```cpp
-/*
-https://www.careercup.com/question?id=5652067409461248
-https://www.geeksforgeeks.org/samsung-interview-experience-set-28-campus/
-
-http://ideone.com/JXMl4L
-https://ide.geeksforgeeks.org/tiyLThcuSN -> Zero
-https://ide.geeksforgeeks.org/3Ks1tpOkwn
-
-*https://code.hackerearth.com/ea07cfD?key=1cb190b158c79639d66d35f7dfa8ef7a -> One
-
-Similr Problem - https://ide.codingblocks.com/s/95965
-
-
-You’ll be given a grid as below:
-
-    0 1 0 2 0
-    0 2 2 2 1
-    0 2 1 1 1
-    1 0 1 0 0
-    0 0 1 2 2
-    1 1 0 0 1
-    x x S x x
-
-In the grid above,
-  1: This cell has a coin.
-  2: This cell has an enemy.
-  0: It contains nothing.
-
-  The highlighted(yellow) zone is the control zone. S is a spaceship that we need to control so that we can get 
-  maximum coins.
-  Now, S’s initial position will be at the center and we can only move it right or left by one cell or do not move.
-  At each time, the non-highlighted part of the grid will move down by one unit.
-  We can also use a bomb but only once. If we use that, all the enemies in the 5×5 region above the control zone 
-  will be killed.
-  If we use a bomb at the very beginning, the grid will look like this:
-
-    0 1 0 2 0
-    0 0 0 0 1
-    0 0 1 1 1
-    1 0 1 0 0
-    0 0 1 0 0
-    1 1 0 0 1
-    x x S x x
-
-  As soon as, the spaceship encounters an enemy or the entire grid has come down, the game ends.
-  For example,
-  At the very first instance, if we want to collect a coin we should move left( coins=1). This is because when the 
-  grid comes down by 1 unit we have a coin on the second position and by moving left we can collect that coin. 
-  Next, we should move right to collect another coin (coins=2).
-  After this, remain at the same position (coins=4).
-  This is the current situation after collecting 4 coins.
-
-    0 1 0 2 0 0 1 0 0 0
-    0 2 2 2 1 -->after using 0 0 0 0 1
-    x x S x x -->bomb x x S x x
-
-   Now, we can use the bomb to get out of this situation. After this, we can collect at most 1 coin. So maximum coins=5.
-*/
 #include<bits/stdc++.h>
 using namespace std;
 void updateMatrix(int row,char ** matrix){
@@ -793,97 +535,8 @@ int main(){
     }
     return 0;
 }
-
-/* 
-No rech top 
-
-#include <iostream>
-using namespace std;
-int det[5][5];
-int mat[13][5];
-
-void detonate(int r)
-{
-    for(int i=r;i>r-5 && i>=0;i--)
-    {
-        for(int j=0;j<5;j++)
-        {
-            det[r-i][j]=0;
-            if(mat[i][j]==2)
-            {
-                det[r-i][j]=2;
-                mat[i][j]=0;
-            }
-        }
-    }
-}
-
-void undet(int r)
-{
-    for(int i=r;i>r-5 && i>=0;i--)
-        for(int j=0;j<5;j++)
-        {
-            if( det[r-i][j]==2)
-                mat[i][j]=2;
-        }
-}
-void func(int n,int pos,int c,int &max)
-{
-    if(pos>4||pos<0||c<0)
-        return;
-
-    if(mat[n][pos]==2)
-        c-=1;
-    else if(mat[n][pos]==1)
-        c+=1;
-
-    if(n==0)
-    {
-        if(c>max)
-            max=c;
-        return;
-    }
-    else
-    {
-        func(n-1,pos+1,c,max);
-        func(n-1,pos-1,c,max);
-        func(n-1,pos,c,max);
-    }
-}
-int main()
-{
-    int t;
-    cin>>t;
-    int count=1;
-    while(t--)
-    {
-        int n;
-        cin>>n;
-        for(int i=0;i<n;i++)
-            for(int j=0;j<5;j++)
-                cin>>mat[i][j];
-        int max=-1,c;
-        for(int j=0;j<5;j++)
-            mat[n][j]=0;
-        mat[n][2]=3;
-        for(int j=n;j>=5;j--)
-        {
-            c=-1;
-            detonate(j-1);
-            func(n,2,0,c);
-            if(c>max)
-                max=c;
-            undet(j-1);
-        }
-        if(max<0)
-            max=-1;
-        cout<<"#"<<count<<" "<<max<<endl;
-        count++;
-    }
-}
-*/
-
-
+```
+```cpp
 #include <iostream>
 using namespace std;
 int det[5][5];
@@ -964,49 +617,10 @@ int main(){
         count++;
     }
 }
-
 ```
 
-## Approach 6
+### Approach 6
 ```cpp
-/*
-You’ll be given a grid as below:
-
-                       0 1 0 2 0 --> Non highlighted part
-                       0 2 2 2 1
-                       0 2 1 1 1
-                       1 0 1 0 0
-                       0 0 1 2 2
-                       1 1 0 0 1
-                       x x S x x  -->highlighted yellow
- In the grid above,     
-1: This cell has a coin.
-2: This cell has an enemy.
-0: It contains nothing.
-The highlighted(yellow) zone is the control zone. S is a spaceship that we need to control so that we can get maximum coins.
-Now, S’s initial position will be at the center and we can only move it right or left by one cell or do not move. At each time, the non-highlighted part of the grid will move down by one unit.
-We can also use a bomb but only once. If we use that, all the enemies in the 5×5 region above the control zone will be killed.
-If we use a bomb at the very beginning, the grid will look like this:
-
-0 1 0 2 0  --> Non highlighted part
-0 0 0 0 1
-0 0 1 1 1
-1 0 1 0 0
-0 0 1 0 0
-1 1 0 0 1
-x x S x x  --> highlighted yellow
- As soon as, the spaceship encounters an enemy or the entire grid has come down, the game ends.     
-For example,    
-At the very first instance, if we want to collect a coin we should move left **( coins=1)**. This is because when the grid comes down by 1 unit we have a coin on the second position and by moving left we can collect that coin. Next, we should move right to collect another coin **( coins=2)** .
-After this, remain at the same position **( coins=4)**.
-This is the current situation after collecting 4 coins.
-0 1 0 2 0                0 1 0 0 0
-0 2 2 2 1 -->after using 0 0 0 0 1
-x x S x x -->bomb        x x S x x
-Now, we can use the bomb to get out of this situation. After this, we can collect at most 1 coin. So maximum coins=5.
-*/
-
-
 #include <iostream>
 using namespace std;
 
@@ -1020,10 +634,8 @@ bool valid(int r, int c){
 
 int solve(int r, int c, int power, int effect){
 
-  // base case
   if(r<0)return 0;
 
-  // recursive case
   int ans = 0;
   int p = 0;
   for(int i = -1; i <=1; i++){
@@ -1032,7 +644,6 @@ int solve(int r, int c, int power, int effect){
     int x = r-1;
     
     if(valid(x,y)){
-      // enemy 
       if(a[x][y] == 2){
          if(power == 0 && effect >  0){
             p = solve(x,y,power,effect -1);
@@ -1041,7 +652,6 @@ int solve(int r, int c, int power, int effect){
            p = solve(x,y,power-1,5);
          }
       }
-      // not enemy
       if(a[x][y] == 1 ||a[x][y] == 0){
         if(power == 0)
         p = solve(x,y,power,effect-1);
@@ -1068,10 +678,9 @@ int main() {
     cout<<solve(n,2,1,0)<<endl;
     return 0;
 }
-
 ```
 
-## 
+### Additional Approach 1
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -1087,7 +696,6 @@ int dfs(int i, int j, bool canBomb, vector<vector<int>> v, int n)
         ans++;
     if (canBomb)
     {
-        // we will use the bomb here
         vector<vector<int>> cpy = v;
         for (int p = max(i - 5, 0); p < i; p++)
         {
@@ -1098,14 +706,12 @@ int dfs(int i, int j, bool canBomb, vector<vector<int>> v, int n)
             }
         }
         int op1 = 0, op2 = 0, op3 = 0;
-        if (j + 1 < 5) // move to the right
+        if (j + 1 < 5)
             op1 = dfs(i - 1, j + 1, false, cpy, n);
-        if (j - 1 >= 0) // move to the left
+        if (j - 1 >= 0)
             op2 = dfs(i - 1, j - 1, false, cpy, n);
-        op3 = dfs(i - 1, j, 0, cpy, n); // stay in the current place
+        op3 = dfs(i - 1, j, 0, cpy, n);
         int finalAns1 = max({op1, op2, op3}) + ans;
-
-        // we will not use the bomb
         int op1n = 0, op2n = 0, op3n = 0;
         if (j + 1 < 5)
             op1n = dfs(i - 1, j + 1, true, v, n);
@@ -1117,7 +723,6 @@ int dfs(int i, int j, bool canBomb, vector<vector<int>> v, int n)
     }
     else
     {
-        // we can not use the bomb
         int op1n = 0, op2n = 0, op3n = 0;
         if (j + 1 < 5)
             op1n = dfs(i - 1, j + 1, false, v, n);
@@ -1156,8 +761,7 @@ int main()
 }
 ```
 
-
-##
+### Additional Approach 2
 ```cpp
 #include <iostream>
 #include<vector>
@@ -1172,7 +776,6 @@ void dfs(int row, int col, int coins, int rowSafe, bool isBombed, int &maxCount,
 		return;
 	}
 
-	//maxCount = max(coins, maxCount);
 	if (graph[row][col] == 1) {
 		int newCoins = coins + 1;
 		if (isBombed) rowSafe--;
@@ -1234,7 +837,7 @@ int main()
 }
 ```
 
-## 
+### Additional Approach 3
 ```cpp
 #include <iostream>
 using namespace std;
@@ -1297,12 +900,9 @@ int main(){
             getMax(2,0,n,coins);
             if(coins>ans) ans=coins;
             undetonate(i);
-            // getMax(2,0,n,coins);
-            // if(coins>ans) ans=coins;
         }
         if(ans<0) cout << -1 << endl;
         else cout << ans << endl;
     }
 }
 ```
-##

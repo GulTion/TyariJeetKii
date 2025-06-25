@@ -1,6 +1,6 @@
 {
   "cssTheme": "AnuPpuccin",
-  "theme": "obsidian",
+  "theme": "moonstone",
   "accentColor": "#294ee0",
   "enabledCssSnippets": [
     "floating-search-bar",
@@ -10,5 +10,5 @@
   "textFontFamily": "JetBrains Mono",
   "monospaceFontFamily": "JetBrains Mono",
   "baseFontSizeAction": true,
-  "baseFontSize": 23
+  "baseFontSize": 17
 }

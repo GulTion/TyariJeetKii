@@ -1,6 +1,6 @@
 ---
 source: https://www.hackerrank.com/contests/srbd-code-contest-2023-round-1/challenges/bright-birthday/problem
-explored:
+explored: false
 ---
 
 
@@ -16,7 +16,7 @@ Bivas received a colorful gift for his birthday. It is a string $S$ of lowercase
 
 He knows a set of colors $C$ which consists of names of different colors. The set is fixed and showed below.
 
-$C = \{ \text{"blue", "green", "yellow", "red", "purple", "orange", "pink", "grey", "cyan", "brown", "ash", "silver", "gold", "white", "black"} \}$.
+$C = \{ \text{"blue", "green", "yellow", "red", "purple", "orange", "pink", "grey", "cyan", "brown", "ash", "silver", "gold", "white", "black"} \}$
 
 Now he wishes to use some of the characters from $S$ to make *different* colors and decorate his room on his special day. He wants to choose a subset of $C$ such that all the colors from that subset can be made from using each character of $S$ at most once. All the colors he wishes must be created simultaneously and he cannot use one instance of a character in creating different colors of the chosen subset. *Refer to the sample explanation for further clarity.*
 

@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "a34d7390047e5d75",
+    "type": "split",
+    "children": [
+      {
+        "id": "e53a5f35ed322903",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "17ec97c9b51d018c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Samsung RandD/Tunnel Construction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tunnel Construction"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5fe27da50cfecd4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "a1606e427d1a7d40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5e3e147b9a2d2f0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "46baecadca3f7577",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "734818a098afa1b6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 376
+  },
+  "right": {
+    "id": "1bb9f26454d11972",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c70092d9c8aa88a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "94d37ac39729d040",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Code/Bright Birthday.cpp",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Bright Birthday"
+            }
+          },
+          {
+            "id": "a5404816075f3c52",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Code/Bright Birthday.cpp",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Bright Birthday"
+            }
+          },
+          {
+            "id": "c4cb24b88de2879b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d34e5403226a6395",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "e66bffa17bf98b39",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Code/Bright Birthday.cpp",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Bright Birthday"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-projects:Open projects": false,
+      "vscode-editor:Create Code File": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "smart-random-note:Open Random Note from Search": false,
+      "omnisearch:Omnisearch": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
+    }
+  },
+  "active": "17ec97c9b51d018c",
+  "lastOpenFiles": [
+    "Samsung RandD/Travelling SalesPerson.md",
+    "SRI/rldnjs7723-CodingTest/README.md",
+    "SRI/kaushal02/travelingIsFun.cpp",
+    "SRI/junaidmifti-Samsung_SWC_Practice/FinalTSP/FinalTSP/FinalTSP.cpp",
+    "SamsungPractice/DFS/2. Travelling sales person.cpp",
+    "SRI/Soumik-Paul-Samsung-Pre-employment-Coding-Test/Travelling_salesperson.cpp",
+    "Samsung RandD/FisherMan.md",
+    "SRI/junaidmifti-Samsung_SWC_Practice/FisherMan/FisherMan/FisherMan.cpp",
+    "SRI/junaidmifti-Samsung_SWC_Practice/RockClimbing/RockClimbing/RockClimbing.cpp",
+    "Samsung RandD/Rock Climbing.md",
+    "Samsung RandD/Sum of Nodes in Kth Level.md",
+    "Samsung RandD/Max Sum from Leaf to Root.md",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Sum of Nodes at Level K/readme.md",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Sum of Nodes at Level K/solution.cpp",
+    "SRI/junaidmifti-Samsung_SWC_Practice/Sum of Nodes/Sum of Nodes/Sum of Nodes.cpp",
+    "SRI/junaidmifti-Samsung_SWC_Practice/sumOfNodesFinal/sumOfNodesFinal/sumOfNodesFinal.cpp",
+    "SRI/Soumik-Paul-Samsung-Pre-employment-Coding-Test/Sum_of_nodes_in_Kth_level.cpp",
+    "SamsungPractice/README.md",
+    "Samsung RandD/Aeroplane Bombing.md",
+    "UF.md",
+    "Samsung RandD/Zero Statistica.md",
+    "Samsung RandD/Flip Columns.md",
+    "Samsung RandD/Warmholes.md",
+    "Samsung RandD/Sales booth.md",
+    "SRI/shreyanshchordia-Graph_Algorithms/Jzzhu and Cities/README.md",
+    "SRI/SSAMCO-SAMSUNG_CODINGTEST/README.md",
+    "Samsung RandD/Aragorn The King.md",
+    "Index.md",
+    "Samsung RandD/Aragorn is Gone.md",
+    "List of Samsung Question.md",
+    "Kth Largest Element in BST.md",
+    "Samsung RandD/Bright Birthday.md",
+    "Code/Bright Birthday.md"
+  ]
+}

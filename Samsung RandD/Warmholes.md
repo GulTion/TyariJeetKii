@@ -8,7 +8,7 @@ created: 2024-12-18
 description: Warmholes
 tags:
   - clippings
-status: Pending
+status: Complete
 explored: true
 ---
 # Spacecraft Travel with Wormholes
@@ -238,7 +238,7 @@ int main() {
 }
 ```
 
-## Floyd-Warshall Approach
+## Floyd-Warshall Approach (BEST)
 ```cpp
 #include <iostream> // Only for cin and cout
 
@@ -323,5 +323,4 @@ int main() {
 }
 
 ```
-
 
