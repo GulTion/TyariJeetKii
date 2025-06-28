@@ -4,69 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "bccc462b0d6c4b89",
+        "id": "ae55c5f9447e9fba",
         "type": "tabs",
         "children": [
           {
-            "id": "f4fcd413a25fc533",
-            "type": "leaf",
-            "state": {
-              "type": "obsidian-projects",
-              "state": {},
-              "icon": "projects-icon",
-              "title": "Projects"
-            }
-          },
-          {
-            "id": "482ba390ddb3de05",
+            "id": "567e694837996426",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Samsung RandD/Camels Transportation.md",
+                "file": "Samsung RandD/Automatic Fueling Robot.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Camels Transportation"
-            }
-          },
-          {
-            "id": "0ff2fe0eefb262a1",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "2043b0838b55001b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "0a9e4f0a0ba3bc9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Samsung RandD/classic Hanoi Tower.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "classic Hanoi Tower"
+              "title": "Automatic Fueling Robot"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -235,24 +190,32 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "482ba390ddb3de05",
+  "active": "567e694837996426",
   "lastOpenFiles": [
-    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Camel/solution.cpp",
+    "Clippings/Ann8497's Pastebin - Pastebin.com.md",
+    "Samsung RandD/Automatic Fueling Robot.md",
+    "SRI/rldnjs7723-CodingTest/BOJ/19000/Main_19238.java",
+    "SRI/thePairedElectron/Fuelling.cpp",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Car Fuel/solution.cpp",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Car Fuel/readme.md",
+    "Automatic Robot Fuel.cpp",
+    "Automatic Robot Fuel.bin",
+    "Samsung RandD/Burst Balloons Optimally.md",
+    "List of Samsung Question.md",
+    "Clippings/SAMSUNG Questions.md",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Burst Balloons Optimally/solution.cpp",
+    "SRI/ismail-ru-cse-39/practice_balloon_burst_2.cpp",
+    "SRI/ismail-ru-cse-39/Advance_Balloon_burst.cpp",
+    "SRI/ismail-ru-cse-39/practice/practice_balloon_burst.cpp",
+    "SRI/ismail-ru-cse-39/practice_balloon_burst.cpp",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Burst Balloons Optimally/readme.md",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Ominuous Number/readme.md",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Research Center/readme.md",
     "Samsung RandD/Camels Transportation.md",
     "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Camel/readme.md",
-    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Burst Balloons Optimally/solution.cpp",
-    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Burst Balloons Optimally/readme.md",
     "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Warm Holes/readme.md",
-    "SRI/Soumik-Paul-Samsung-Pre-employment-Coding-Test/Piller_Pipe.cpp",
-    "SRI/Soumik-Paul-Samsung-Pre-employment-Coding-Test/Research_Item.cpp",
     "SRI/Soumik-Paul-Samsung-Pre-employment-Coding-Test/README.md",
     "Samsung RandD/Rock Climbing.md",
-    "Rock_Climbing.bin",
-    "Rock_Climbing.cpp",
-    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Rock Climbing/solution.cpp",
-    "SRI/Soumik-Paul-Samsung-Pre-employment-Coding-Test/Rock_climbing.cpp",
-    "SRI/ismail-ru-cse-39/practice/Rock_climbing.cpp",
-    "SRI/junaidmifti-Samsung_SWC_Practice/rockClimbingFinal/rockClimbingFinal/rockClimbingFinal.cpp",
     "Samsung RandD/classic Hanoi Tower.md",
     "Samsung RandD/Flip Columns.md",
     "Samsung RandD/Tunnel Construction.md",
@@ -264,13 +227,6 @@
     "Samsung RandD/FisherMan.md",
     "Samsung RandD/Sum of Nodes in Kth Level.md",
     "Samsung RandD/Max Sum from Leaf to Root.md",
-    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Sum of Nodes at Level K/readme.md",
-    "SamsungPractice/README.md",
-    "Samsung RandD/Aeroplane Bombing.md",
-    "UF.md",
-    "Samsung RandD/Zero Statistica.md",
-    "Samsung RandD/Warmholes.md",
-    "Samsung RandD/Sales booth.md",
-    "SRI/shreyanshchordia-Graph_Algorithms/Jzzhu and Cities/README.md"
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Sum of Nodes at Level K/readme.md"
   ]
 }

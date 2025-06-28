@@ -1,3 +1,7 @@
+---
+explored: true
+status: Complete
+---
 
 ## Problem Description
 

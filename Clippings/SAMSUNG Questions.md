@@ -42,7 +42,7 @@ tags:
 
 ## GeeksForGeeks
 
-- [Balloon Bursting](https://www.geeksforgeeks.org/burst-balloon-to-maximize-coins/) or see [this](https://www.geeksforgeeks.org/samsung-delhi-interview-experience-set-38-campus/)
+](https://www.geeksforgeeks.org/samsung-delhi-interview-experience-set-38-campus/)
 - Solutions: [1](https://code.hackerearth.com/a02f2cE?key=7fc7e7a4368341c79fa47ef13e9d0d77)
 - [Banner on the pillars](https://www.geeksforgeeks.org/samsung-r-d-noida-question-september-2018/)
 - Solutions: [1](https://code.hackerearth.com/8ca41dM?key=54591adea7ca921ac55169b10f163508)
@@ -215,7 +215,6 @@ Men's restroom problem : It is a well-researched fact that men in a restroom gen
 - Worm holes. Done.
 - Kim and refridgerators. Done.
 - Physical Energy. Don't understand the question properly.
-- Balloon Bursting. Done.
 - Number deletions. Done.
 - Cycle or not. Done.
 - Spaceship. Done.
