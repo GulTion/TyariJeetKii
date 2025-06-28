@@ -150,7 +150,11 @@
               "tags",
               "title"
             ],
-            "fieldConfig": {}
+            "fieldConfig": {
+              "name": {
+                "width": 254
+              }
+            }
           },
           "filter": {
             "conjunction": "and",
@@ -160,7 +164,13 @@
             "conditions": []
           },
           "sort": {
-            "criteria": []
+            "criteria": [
+              {
+                "field": "explored",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
           },
           "id": "06f3675d-830b-4669-b443-5797af4efd64",
           "name": "Table",

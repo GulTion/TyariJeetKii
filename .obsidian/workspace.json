@@ -4,24 +4,69 @@
     "type": "split",
     "children": [
       {
-        "id": "e53a5f35ed322903",
+        "id": "bccc462b0d6c4b89",
         "type": "tabs",
         "children": [
           {
-            "id": "17ec97c9b51d018c",
+            "id": "f4fcd413a25fc533",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {},
+              "icon": "projects-icon",
+              "title": "Projects"
+            }
+          },
+          {
+            "id": "482ba390ddb3de05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Samsung RandD/Tunnel Construction.md",
+                "file": "Samsung RandD/Camels Transportation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tunnel Construction"
+              "title": "Camels Transportation"
+            }
+          },
+          {
+            "id": "0ff2fe0eefb262a1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "2043b0838b55001b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "0a9e4f0a0ba3bc9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Samsung RandD/classic Hanoi Tower.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "classic Hanoi Tower"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376
+    "width": 523.0182838439941
   },
   "right": {
     "id": "1bb9f26454d11972",
@@ -190,40 +235,42 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "17ec97c9b51d018c",
+  "active": "482ba390ddb3de05",
   "lastOpenFiles": [
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Camel/solution.cpp",
+    "Samsung RandD/Camels Transportation.md",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Camel/readme.md",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Burst Balloons Optimally/solution.cpp",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Burst Balloons Optimally/readme.md",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Warm Holes/readme.md",
+    "SRI/Soumik-Paul-Samsung-Pre-employment-Coding-Test/Piller_Pipe.cpp",
+    "SRI/Soumik-Paul-Samsung-Pre-employment-Coding-Test/Research_Item.cpp",
+    "SRI/Soumik-Paul-Samsung-Pre-employment-Coding-Test/README.md",
+    "Samsung RandD/Rock Climbing.md",
+    "Rock_Climbing.bin",
+    "Rock_Climbing.cpp",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Rock Climbing/solution.cpp",
+    "SRI/Soumik-Paul-Samsung-Pre-employment-Coding-Test/Rock_climbing.cpp",
+    "SRI/ismail-ru-cse-39/practice/Rock_climbing.cpp",
+    "SRI/junaidmifti-Samsung_SWC_Practice/rockClimbingFinal/rockClimbingFinal/rockClimbingFinal.cpp",
+    "Samsung RandD/classic Hanoi Tower.md",
+    "Samsung RandD/Flip Columns.md",
+    "Samsung RandD/Tunnel Construction.md",
+    "SRI/jkimpro-coding-test-solution/samsung-certi-expert/README.md",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Flip Columns/readme.md",
+    "Samsung RandD/Rare element.md",
     "Samsung RandD/Travelling SalesPerson.md",
     "SRI/rldnjs7723-CodingTest/README.md",
-    "SRI/kaushal02/travelingIsFun.cpp",
-    "SRI/junaidmifti-Samsung_SWC_Practice/FinalTSP/FinalTSP/FinalTSP.cpp",
-    "SamsungPractice/DFS/2. Travelling sales person.cpp",
-    "SRI/Soumik-Paul-Samsung-Pre-employment-Coding-Test/Travelling_salesperson.cpp",
     "Samsung RandD/FisherMan.md",
-    "SRI/junaidmifti-Samsung_SWC_Practice/FisherMan/FisherMan/FisherMan.cpp",
-    "SRI/junaidmifti-Samsung_SWC_Practice/RockClimbing/RockClimbing/RockClimbing.cpp",
-    "Samsung RandD/Rock Climbing.md",
     "Samsung RandD/Sum of Nodes in Kth Level.md",
     "Samsung RandD/Max Sum from Leaf to Root.md",
     "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Sum of Nodes at Level K/readme.md",
-    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Sum of Nodes at Level K/solution.cpp",
-    "SRI/junaidmifti-Samsung_SWC_Practice/Sum of Nodes/Sum of Nodes/Sum of Nodes.cpp",
-    "SRI/junaidmifti-Samsung_SWC_Practice/sumOfNodesFinal/sumOfNodesFinal/sumOfNodesFinal.cpp",
-    "SRI/Soumik-Paul-Samsung-Pre-employment-Coding-Test/Sum_of_nodes_in_Kth_level.cpp",
     "SamsungPractice/README.md",
     "Samsung RandD/Aeroplane Bombing.md",
     "UF.md",
     "Samsung RandD/Zero Statistica.md",
-    "Samsung RandD/Flip Columns.md",
     "Samsung RandD/Warmholes.md",
     "Samsung RandD/Sales booth.md",
-    "SRI/shreyanshchordia-Graph_Algorithms/Jzzhu and Cities/README.md",
-    "SRI/SSAMCO-SAMSUNG_CODINGTEST/README.md",
-    "Samsung RandD/Aragorn The King.md",
-    "Index.md",
-    "Samsung RandD/Aragorn is Gone.md",
-    "List of Samsung Question.md",
-    "Kth Largest Element in BST.md",
-    "Samsung RandD/Bright Birthday.md",
-    "Code/Bright Birthday.md"
+    "SRI/shreyanshchordia-Graph_Algorithms/Jzzhu and Cities/README.md"
   ]
 }

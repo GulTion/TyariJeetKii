@@ -24,16 +24,16 @@ In 1883, Edouard Lucas invented, or perhaps reinvented, one of the most popular 
 
 First of all, we will make a list of the rules of the puzzle:  
 
-- There are three pegs: A, B and C.
+- There are three pegs: $A$, $B$ and $C$.
 - There are n disks. The number n is constant while working the puzzle.
 - All disks are different in size.
 - The disks are initially stacked on peg A so that they increase in size from the top to the bottom.
 - The goal of the puzzle is to transfer the entire tower from the A peg to one of the others pegs.
-- One disk at a time can be moved from the top of a stack either to an empty peg or to a peg with a larger disk than itself on the top of its stack.
+- One disk at a time can be moved from the top of a stack either to an *empty* peg or to a peg with a *larger* disk than itself on the top of its stack.
 
 A good way to get a feeling for the puzzle is to write a program which will show a copy of the puzzle on the screen and let you simulate moving the disks around. The next step could be to write a program for solving the puzzle in a efficient way. You don't have to do neither, but only know the actual situation after a given number of moves by using a determinate algorithm.  
 
-It is well known and rather easy to prove that the minimum number of moves needed to complete the puzzle with n disks is 2<sup>n</sup>\-1. A simple algorithm which allows us to reach this optimum is as follows:  
+It is well known and rather easy to prove that the minimum number of moves needed to complete the puzzle with n disks is $2^n-1$. A simple algorithm which allows us to reach this optimum is as follows:  
 
 - for odd moves, take the smallest disk (number 1) from the peg where it lies to the next one in the circular sequence ***ABCABC***
 - for even moves, make the only possible move not involving disk 1.
