@@ -115,14 +115,6 @@ For example with 3 elements 1,2,3, there are 5 possible BST and for 1,2,3,4 ther
   If you have to type 5 -> '1+4=' that requires 4 operations. There could be other ways to make '5'.  
     The goal is to find minimum operations.
 
-- There are N pots. Every pot has some water in it. They may be partially filled. Every pot is associated with overflow number O which tell how many minimum no. of stones required for that pot to overflow. The crow knows O1 to On(overflow no. for all the pots). Crow wants some K pots to be overflow. So the task is a minimum number of stones he can make K pots overflow in the worst case.
-
-    Array of overflow no--. {1,...,On}   
-    Number of pots--n     
-    No of pots to overflow-- k
-
-    Let say two pots are there with overflow no.s {5,58}, and the crow has to overflow one pot(k=1). So crow will put 5 stones in a pot with overflow no.(58), it will not overflow, then he will put in the pot with overflow no.(5), hence the total no. of stones to make overflow one-pot is=10.
-
 - You are given 2 convex hulls. Find all the common points that lie in the intersection of these 2 convex hulls.
 
 - There is an island surrounded by oil mines. You will be given n companies and m oil mines having values. You have to distribute the mines to "n" companies in fair manner. Remember the companies can have oil mines adjacent to each other and not in between of each other.After distributing them compute the difference of oil mines from the company getting highest and company getting lowest. This number should be minimum.(then only the distribution can be termed as fair).

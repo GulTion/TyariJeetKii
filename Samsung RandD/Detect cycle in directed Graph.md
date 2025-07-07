@@ -52,3 +52,43 @@ single line node values in sorted order
 ```
 1 5
 ```
+
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int N, E,x,y; cin>>N>>E;
+    map<int, vector<int>> g;
+    for(int e=0;e<E;++e){
+        cin>>x>>y;
+        g[x].push_back(y);
+    }
+
+    vector<int> minPath, path;
+    int minPathSize=INT_MAX;
+    function<void(int, int)> dfs = [&](int mask,int u) {
+        int n = __builtin_popcount(mask);
+        if(n==N) return;
+
+        for(auto v:g[u]){
+            if(!(mask&(1<<v))){
+                path.push_back(v);
+                dfs(mask|(1<<v), v);
+                path.pop_back();
+            }else{
+                if(minPathSize>path.size()){
+                    minPath = path;
+                    minPathSize = minPath.size();
+                }
+            }
+        }
+    };
+    
+    for(int i=0;i<N;i++)
+    dfs(0,i);
+    sort(minPath.begin(), minPath.end());
+    for(int i:minPath) cout<<i<<" ";
+    return 0;
+}
+```
