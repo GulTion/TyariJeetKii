@@ -54,8 +54,8 @@
           "sort": {
             "criteria": [
               {
-                "field": "explored",
-                "order": "desc",
+                "field": "name",
+                "order": "asc",
                 "enabled": true
               }
             ]
