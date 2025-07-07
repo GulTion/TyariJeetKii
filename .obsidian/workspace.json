@@ -16,8 +16,21 @@
               "icon": "projects-icon",
               "title": "Projects"
             }
+          },
+          {
+            "id": "7e2d8ce974e5ff91",
+            "type": "leaf",
+            "state": {
+              "type": "vscode-editor",
+              "state": {
+                "file": "SRI/junaidmifti-Samsung_SWC_Practice/JewelMaze/JewelMaze/JewelMaze.cpp"
+              },
+              "icon": "lucide-file",
+              "title": "JewelMaze"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,17 +199,35 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "af8bb9cfd637ceab",
+  "active": "7e2d8ce974e5ff91",
   "lastOpenFiles": [
-    "Samsung RandD/Hello Samsung!!!.md",
-    "Final Adv Samsung/Tower Construction.md",
-    "Samsung RandD/MEX Sequence_samsung.md",
-    "Samsung RandD/Chocolate Distribution Problem 4.md",
-    "Samsung RandD/Bright Birthday.md",
-    "Final Adv Samsung/Airplane Game_generating a map application.md",
+    "SRI/ismail-ru-cse-39/Ferry loading1.cpp",
+    "Samsung RandD/Zero Statistica.md",
+    "Samsung RandD/Weird Subarray.md",
+    "Samsung RandD/Wear Mask.md",
+    "Samsung RandD/Village Hidden in The Leaf.md",
+    "Samsung RandD/Toll Gate.md",
+    "Samsung RandD/The Marathon.md",
+    "Samsung RandD/Terror in Terminus.md",
+    "Samsung RandD/Superhuman (Gravity Control).md",
+    "Samsung RandD/Solve Jumping Jack Prime Hole.md",
+    "Samsung RandD/Samsung Tire(AC).md",
+    "Final Adv Samsung/Samsung 2017.md",
+    "Final Adv Samsung/Round Trip II - CSES.md",
+    "Samsung RandD/Punch-InOut.md",
+    "Samsung RandD/Primes in Range.md",
+    "Samsung RandD/Maximum Placement.md",
+    "Final Adv Samsung/Product Manufacturing.md",
+    "Final Adv Samsung/Physical Energy Problem.md",
+    "Samsung RandD/Panjul's Numbers.md",
+    "Samsung RandD/Not Number Theory.md",
+    "Final Adv Samsung/Minimum Knight Moves - Leetcode 1197..md",
+    "Final Adv Samsung/Maximum Number of Moves in a Grid - LeetCode.md",
+    "Final Adv Samsung/Max Sum from Leaf to Root.md",
+    "Samsung RandD/Group of Friends.md",
+    "Samsung RandD/Cube Coloring.md",
+    "Samsung RandD/Falling Trees.md",
     "Final Adv Samsung",
-    "Samsung RandD/3 in 1 Data Structure.md",
-    "Final Adv Samsung/Burst Balloons Optimally.md",
     "SRI/ismail-ru-cse-39/Advance_baloon.cpp",
     "SamsungPractice/string compression.cpp",
     "SamsungPractice/31/conditional_solution.cpp",
@@ -205,30 +236,12 @@
     "SRI/ismail-ru-cse-39/Advace_Travelling_salesman.cpp",
     "SRI/ismail-ru-cse-39/practice/practice_filip_bit.cpp",
     "SRI/ismail-ru-cse-39/hacker_rank/2D_arry.cpp",
-    "Final Adv Samsung/Sales booth.md",
     "SamsungPractice/SWC_attempt2/MrKim.cpp",
-    "Final Adv Samsung/Travelling SalesPerson.md",
-    "Final Adv Samsung/Detect cycle in directed Graph.md",
-    "Final Adv Samsung/Aggressive Cow.md",
-    "Final Adv Samsung/Equation.md",
-    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Equation Solve/readme.md",
-    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Doctor's Probability/readme.md",
-    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Detect Cycle in Directed Graph/readme.md",
-    "Final Adv Samsung/Crow Pots.md",
-    "SamsungPractice/README.md",
-    "SamsungPractice/README1.md",
-    "Clippings/Ann8497's Pastebin - Pastebin.com.md",
     "SamsungPractice/32/Problem Statement/2.jpeg",
     "SamsungPractice/32/Problem Statement/1.jpeg",
     "SamsungPractice/32/Problem Statement/5.jpeg",
     "SamsungPractice/32/Problem Statement/4.jpeg",
     "SamsungPractice/32/Problem Statement/3.jpeg",
-    "SamsungPractice/32/Problem Statement/7.jpeg",
-    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Crow Pots/readme.md",
-    "Final Adv Samsung/Automatic Fueling Robot.md",
-    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Car Fuel/readme.md",
-    "List of Samsung Question.md",
-    "Clippings/SAMSUNG Questions.md",
-    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Burst Balloons Optimally/readme.md"
+    "SamsungPractice/32/Problem Statement/7.jpeg"
   ]
 }
