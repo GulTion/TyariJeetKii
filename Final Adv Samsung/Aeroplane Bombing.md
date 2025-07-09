@@ -117,6 +117,75 @@ For each test output single integer with format #test_number output
 ```
 
 
+```cpp
+
+#include <bits/stdc++.h>
+using namespace std;
+int n,maxi;
+int mat[20][6];
+void bomb(int x,int y,int cost, bool use, int count)
+{
+	maxi= max(maxi,cost);
+	int i,j,row,col;
+	for(i=-1;i<=1;i++)
+	{
+		row= x-1; col = y+i;
+		if(row>=1 && row<=n && col>=1 && col<=5){
+
+			//6cases
+			if((mat[row][col]==0|| mat[row][col]==1) && use == true)
+			{
+				bomb(row,col,cost+mat[row][col],true,count+1);
+			}
+			else if ((mat[row][col]==0||mat[row][col]==1) && use == false)
+			{
+				bomb(row,col,cost+mat[row][col],false,count);	
+			}
+			
+			else if(mat[row][col]==2 && use == true)
+			{
+				if(count>=5) break;
+
+				bomb(row,col,cost,true,count+1);
+			}
+			else if (mat[row][col]==2 && use == false)
+			{
+				bomb(row,col,cost,true,count);	
+			}
+
+
+		}
+	}
+}
+int main()
+{
+	#ifndef ONLINE_JUDGE
+ 
+    freopen("input.txt", "r", stdin);
+ 
+    freopen("output.txt", "w", stdout);
+
+	#endif
+	int tt,id=1,i,j;
+	cin>>tt;
+	while(tt--)
+	{
+		maxi = INT_MIN;
+		cin>>n;
+		for(i=1;i<=n;i++)
+			for(j=1;j<=5;j++)
+				cin>>mat[i][j];
+		bomb(n+1,3,0,false,0);
+		cout<<"#"<<id++<<" "<<maxi<<endl;
+
+
+	}
+
+
+
+	return 0;
+}
+```
 ### Approach 1
 ```cpp
 #include <iostream> 

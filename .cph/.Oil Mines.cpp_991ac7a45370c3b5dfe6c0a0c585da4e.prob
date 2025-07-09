@@ -1,0 +1,1 @@
+{"name":"Local: Oil Mines","url":"/media/gultion/Material/TyariJeetKii/Oil Mines.cpp","tests":[{"id":1752076189440,"input":"2\n2 4\n6 13 10 2\n2 4\n6 10 13 2\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/media/gultion/Material/TyariJeetKii/Oil Mines.cpp","group":"local","local":true}

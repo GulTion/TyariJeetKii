@@ -53,8 +53,8 @@ Output:
 ```
 **Constraints:**
 
-- `1 <= nums.length <= 10<sup>5</sup>`
-- `-2<sup>31</sup> <= nums[i] <= 2<sup>31</sup> - 1`
+- 1 <= nums.length <= 10<sup>5</sup>
+- -2<sup>31</sup> <= nums[i] <= 2<sup>31</sup> - 1
 
 ## Approach 1
 ```cpp

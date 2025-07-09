@@ -73,3 +73,33 @@ int main() {
 
 ```
 
+
+
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int N,H,D;
+    cin>>N>>H>>D;
+    vector<int> cost(N), speed(N);
+    for(int &i:cost) cin>>i;
+    for(int &i:speed) cin>>i;
+
+    function<int(int, int)> dfs = [&](int h, int d){
+        if(d==D) return 0;
+        // if(h>H) return INT_MAX;
+        int ans = INT_MAX;
+        for(int i=0;i<N;i++){
+            if((cost[i]+h)<=H) {
+                int res = dfs(cost[i]+h, d+1);
+                if(res!=INT_MAX) ans = min(ans, res+speed[i]);}
+        }
+        return ans;
+    };
+
+    cout<<dfs(0, 0);
+
+    return 0;
+}
+```

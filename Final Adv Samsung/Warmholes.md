@@ -8,7 +8,7 @@ created: 2024-12-18
 description: Warmholes
 tags:
   - clippings
-status: Complete
+status: ReDone
 explored: true
 ---
 # Spacecraft Travel with Wormholes
@@ -72,255 +72,59 @@ Output a single integer representing the minimum cost.
 48
 ```
 
-## Recursive Approach
+## Code
 ```cpp
-#include <iostream>  // Only for cin and cout
-
-// Custom absolute value function
-int my_abs(int x) {
-    return (x < 0) ? -x : x;
-}
-
-// Custom minimum function
-int my_min(int a, int b) {
-    return (a < b) ? a : b;
-}
-
-// Structure to represent a point
-struct Point {
-    int x;
-    int y;
-};
-
-// Structure to represent a wormhole
-struct Wormhole {
-    Point start;
-    Point end;
-    int cost;
-};
-
-// Calculate Manhattan distance
-int calculate_distance(Point p1, Point p2) {
-    return my_abs(p1.x - p2.x) + my_abs(p1.y - p2.y);
-}
-
-// Recursive function to find minimum cost
-void solve(Point current, Point destination, Wormhole wormholes[], int num_wormholes, int current_cost, int visited[], int& min_cost) {
-
-    // Calculate cost to go directly to the destination
-    int direct_cost = current_cost + calculate_distance(current, destination);
-    min_cost = my_min(min_cost, direct_cost);
-
-    // Explore using each unvisited wormhole
-    for (int i = 0; i < num_wormholes; ++i) {
-        if (!visited[i]) {
-            visited[i] = 1; // Mark as visited
-
-            // Option 1: Enter at start, exit at end
-            int cost1 = current_cost + calculate_distance(current, wormholes[i].start) + wormholes[i].cost;
-            solve(wormholes[i].end, destination, wormholes, num_wormholes, cost1, visited, min_cost);
-
-            // Option 2: Enter at end, exit at start
-            int cost2 = current_cost + calculate_distance(current, wormholes[i].end) + wormholes[i].cost;
-            solve(wormholes[i].start, destination, wormholes, num_wormholes, cost2, visited, min_cost);
-
-            visited[i] = 0; // Backtrack: unmark as visited
-        }
-    }
-}
-
-int main() {
-    int t;
-    std::cin >> t;  // Use std::cin to avoid pulling in the entire std namespace
-
-    while (t--) {
-        int n;
-        std::cin >> n;
-
-        Point source, destination;
-        std::cin >> source.x >> source.y >> destination.x >> destination.y;
-
-        Wormhole wormholes[6]; // Max 6 wormholes
-        for (int i = 0; i < n; ++i) {
-            std::cin >> wormholes[i].start.x >> wormholes[i].start.y;
-            std::cin >> wormholes[i].end.x >> wormholes[i].end.y;
-            std::cin >> wormholes[i].cost;
-        }
-
-        int visited[6] = {0}; // Keep track of visited wormholes (initialized to all 0s)
-        int min_cost = 2147483647;   // Initialize to maximum integer value (instead of INT_MAX)
-
-        solve(source, destination, wormholes, n, 0, visited, min_cost);
-
-        std::cout << min_cost << std::endl;
-    }
-
-    return 0;
-}
-```
-## Dijkstra's Approach (Fail)
-```cpp
-#include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
-int n;
-int x[13];
-int y[13];
-int w[5];
-int g[13][13];
-int vis[13];
-
-int abs(int a){
-    if(a<0) return -1*a;
-    return a;
-}
-
-int min(int a,int b){
-    if(a<b) return a;
-    return b;
-}
-
-int minind(int* dist,int k){
-    int ans=-1;
-    int minval=100000;
-    for(int i=0;i<k;i++){
-        if(!vis[i] && dist[i]<minval){
-            ans=i;
-            minval=dist[i];
-        }    
+struct Point{
+    int x,y;
+    int distance(Point &p){
+        return abs(x-p.x)+abs(y-p.y);
     }
-    return ans;
-}
+};
+struct WarmHole
+{
+    Point a, b;
+    int dist;
+};
 
-int dijkstra(int k){
-    int dist[k];
-    for(int i=0;i<k;i++) dist[i]=100000;
-    dist[0]=0;
-    for(int i=0;i<k;i++){
-        int index=minind(dist,k);
-        vis[index]=1;
-        for(int j=0;j<k;j++){
-            if(!vis[j] && g[index][j]!=0 && dist[j]>dist[index]+g[index][j]){
-                dist[j]=dist[index]+g[index][j];
-            }
-        }
+int solve(){
+    int N; cin>>N;
+    vector<WarmHole> hole(N);
+
+    Point src; cin>>src.x>>src.y;
+    Point dest; cin>>dest.x>>dest.y;
+    for(int i=0;i<N;i++){
+        Point u; cin>>u.x>>u.y; hole[i].a = u;
+        Point v; cin>>v.x>>v.y; hole[i].b = v;
+        int dist; cin>>dist; hole[i].dist = dist;
     }
-    return dist[1];
-}
 
-int main() {
-	int t;
-	cin >> t;
-	while(t--){
-	    cin >> n;
-	    cin >> x[0] >> y[0] >> x[1] >> y[1] ;
-	    int k=2;
-	    for(int j=0;j<n;j++){
-	        cin >> x[k] >> y[k];
-	        k++;
-	        cin >> x[k] >> y[k];
-	        cin >> w[k-1];
-	        k++;
-	    }
-	    for(int i=0;i<k;i++) vis[i]=0;
-	    for(int i=0;i<k;i++){
-	        for(int j=i+1;j<k;j++){
-	            g[i][j]=abs(x[i]-x[j])+abs(y[i]-y[j]);
-	            g[j][i]=g[i][j];
-	            if(i%2==0 && j==i+1 && i!=0){
-	                g[i][j]=min(g[i][j],w[i]);
-	                g[j][i]=min(g[j][i],w[i]);
-	            }
-	        }
-	    }
-	    cout << dijkstra(k) << endl;
-	}
-	return 0;
-}
-```
+    int min_dist = INT_MAX;
+    function<int(int, Point&)> dfs = [&](int mask, Point &src){
+        int i = __builtin_popcount(mask);
+        int res = src.distance(dest);
 
-## Floyd-Warshall Approach (BEST)
-```cpp
-#include <iostream> // Only for cin and cout
-
-// Custom absolute value function
-int my_abs(int x) {
-    return (x < 0) ? -x : x;
-}
-
-// Custom minimum function
-int my_min(int a, int b) {
-    return (a < b) ? a : b;
-}
-
-int main() {
-    int t;
-    std::cin >> t;
-    while (t--) {
-        int n;
-        std::cin >> n;
-
-        int x[14], y[14]; // Arrays to store coordinates (max 2*6 + 2 = 14)
-        int w[6];        // Array to store wormhole costs
-
-        // Read source and destination
-        std::cin >> x[0] >> y[0] >> x[1] >> y[1];
-
-        // Read wormhole data
-        int k = 2;
-        for (int i = 0; i < n; i++) {
-            std::cin >> x[k] >> y[k]; // Entry
-            k++;
-            std::cin >> x[k] >> y[k]; // Exit
-            std::cin >> w[i];
-            k++;
-        }
-
-        int num_nodes = 2 * n + 2;
-        int dist[14][14];
-
-        // Initialize the distance matrix
-        for (int i = 0; i < num_nodes; i++) {
-            for (int j = 0; j < num_nodes; j++) {
-                if (i == j) {
-                    dist[i][j] = 0; // Distance to itself is 0
-                } else {
-                    dist[i][j] = 2147483647; // Initialize to a large value (instead of INT_MAX)
-                }
+        int cost1, cost2;
+        for(int i=0;i<N;i++){
+            if(!(mask&(1<<i))){
+                cost1 = src.distance(hole[i].a) + hole[i].dist + dfs(mask|(1<<i), hole[i].b);
+                cost2 = src.distance(hole[i].b) + hole[i].dist + dfs(mask|(1<<i), hole[i].a);
+                res = min(res, min(cost1, cost2));
             }
         }
 
-        // Set initial distances based on Manhattan distance and wormholes
-        for (int i = 0; i < num_nodes; i++) {
-            for (int j = i + 1; j < num_nodes; j++) {
-                int manhattan_dist = my_abs(x[i] - x[j]) + my_abs(y[i] - y[j]);
-                dist[i][j] = dist[j][i] = manhattan_dist;
-            }
-        }
-        for (int i = 0; i < n; ++i) {
-            int entry_node = 2 + 2 * i;
-            int exit_node = 3 + 2 * i;
-            dist[entry_node][exit_node] = my_min(dist[entry_node][exit_node], w[i]);
-            dist[exit_node][entry_node] = my_min(dist[exit_node][entry_node], w[i]);
-        }
+        return res;
+    };
 
-        // Floyd-Warshall Algorithm
-        for (int k = 0; k < num_nodes; k++) {
-            for (int i = 0; i < num_nodes; i++) {
-                for (int j = 0; j < num_nodes; j++) {
-                    // Check for overflow before adding
-                    if (dist[i][k] != 2147483647 && dist[k][j] != 2147483647 &&
-                        dist[i][j] > dist[i][k] + dist[k][j]) {
-                        dist[i][j] = dist[i][k] + dist[k][j];
-                    }
-                }
-            }
-        }
-
-        // Output the shortest distance from source (0) to destination (1)
-        std::cout << dist[0][1] << std::endl;
+    return dfs(0, src);
+}
+int main(){
+    int t; cin>>t;
+    while(t--){
+        cout<<solve()<<endl;
     }
     return 0;
 }
-
 ```
 

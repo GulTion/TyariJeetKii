@@ -22,8 +22,6 @@ tags:
 - [Packets and queues](https://careercup.com/question?id=6217124124033024)
 - Given an array of numbers and a number **k**, find all the subsets of the array having size at most **k**.
 - Solutions: [1](https://code.hackerearth.com/a2f1bfa?key=8c614d11c53cc4f776a6e81b997e1a6b)
-- [**Endoscopy**](https://careercup.com/question?id=5663232835452928), [2](https://github.com/rishabh115/Interview-Questions/tree/master/Samsung#coding)
-
 - N pipe portions given, find the two maximum sized pipes, made using these pipe portions.
 - [**Calculator**](https://careercup.com/question?id=5680648437104640)
 - [**Island and oil mines**](https://careercup.com/question?id=5740719907012608), [2](https://github.com/rishabh115/Interview-Questions/tree/master/Samsung#coding)

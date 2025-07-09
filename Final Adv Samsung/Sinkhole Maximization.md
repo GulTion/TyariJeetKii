@@ -172,7 +172,7 @@ int main(){
 		while(l < r){
 			int mid = (l+r)/2;
 			ones = fun(dp, n, m, mid);
-			if(ones > 1)r = mid;
+			if(ones > 1) r = mid;
 			else l = mid+1;
 		}
 		cout<<'#'<<test_case<<" "<<xb<<" "<<yb<<" "<<xt<<" "<<yt<<endl;

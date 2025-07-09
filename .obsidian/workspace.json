@@ -4,33 +4,141 @@
     "type": "split",
     "children": [
       {
-        "id": "ba2769eb1531d980",
+        "id": "77d35883880214fe",
         "type": "tabs",
         "children": [
           {
-            "id": "af8bb9cfd637ceab",
+            "id": "1913b8ec8a7bde78",
             "type": "leaf",
             "state": {
-              "type": "obsidian-projects",
-              "state": {},
-              "icon": "projects-icon",
-              "title": "Projects"
+              "type": "markdown",
+              "state": {
+                "file": "Samsung RI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Old Phone Calculator/readme.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "readme"
             }
           },
           {
-            "id": "7e2d8ce974e5ff91",
+            "id": "82704ba16b4d6460",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Final Adv Samsung/Old Phone.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Old Phone"
+            }
+          },
+          {
+            "id": "ef93dce9937f75b2",
             "type": "leaf",
             "state": {
               "type": "vscode-editor",
               "state": {
-                "file": "SRI/junaidmifti-Samsung_SWC_Practice/JewelMaze/JewelMaze/JewelMaze.cpp"
+                "file": "SamsungPractice/SWC_attempt2/oldPhone.cpp"
               },
               "icon": "lucide-file",
-              "title": "JewelMaze"
+              "title": "oldPhone"
+            }
+          },
+          {
+            "id": "07181c107276832a",
+            "type": "leaf",
+            "state": {
+              "type": "vscode-editor",
+              "state": {
+                "file": "SamsungPractice/oldPhone.cpp"
+              },
+              "icon": "lucide-file",
+              "title": "oldPhone"
+            }
+          },
+          {
+            "id": "444b36f57eb90ae1",
+            "type": "leaf",
+            "state": {
+              "type": "vscode-editor",
+              "state": {
+                "file": "Samsung RI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Old Phone Calculator/solution.cpp"
+              },
+              "icon": "lucide-file",
+              "title": "solution"
+            }
+          },
+          {
+            "id": "43e75abb7a79ebd9",
+            "type": "leaf",
+            "state": {
+              "type": "vscode-editor",
+              "state": {
+                "file": "SamsungPractice/12/attempt2.cpp"
+              },
+              "icon": "lucide-file",
+              "title": "attempt2"
+            }
+          },
+          {
+            "id": "69aedce90e8b6d8f",
+            "type": "leaf",
+            "state": {
+              "type": "vscode-editor",
+              "state": {
+                "file": "SamsungPractice/12/solution.cpp"
+              },
+              "icon": "lucide-file",
+              "title": "solution"
+            }
+          },
+          {
+            "id": "5ded3a5a933590dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Final Adv Samsung/Kth Largest Element in BST.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kth Largest Element in BST"
+            }
+          },
+          {
+            "id": "03287523c9d13338",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Final Adv Samsung/Doctor Probability.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Doctor Probability"
+            }
+          },
+          {
+            "id": "104baf35543258e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Final Adv Samsung/Minimum Knight Moves - Leetcode 1197..md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Minimum Knight Moves - Leetcode 1197."
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -87,7 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 482.01828384399414
+    "width": 578
   },
   "right": {
     "id": "1bb9f26454d11972",
@@ -199,44 +307,44 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7e2d8ce974e5ff91",
+  "active": "c5e3e147b9a2d2f0",
   "lastOpenFiles": [
-    "SRI/ismail-ru-cse-39/Ferry loading1.cpp",
-    "Samsung RandD/Zero Statistica.md",
-    "Samsung RandD/Weird Subarray.md",
-    "Samsung RandD/Wear Mask.md",
-    "Samsung RandD/Village Hidden in The Leaf.md",
-    "Samsung RandD/Toll Gate.md",
-    "Samsung RandD/The Marathon.md",
-    "Samsung RandD/Terror in Terminus.md",
-    "Samsung RandD/Superhuman (Gravity Control).md",
-    "Samsung RandD/Solve Jumping Jack Prime Hole.md",
-    "Samsung RandD/Samsung Tire(AC).md",
-    "Final Adv Samsung/Samsung 2017.md",
-    "Final Adv Samsung/Round Trip II - CSES.md",
-    "Samsung RandD/Punch-InOut.md",
-    "Samsung RandD/Primes in Range.md",
-    "Samsung RandD/Maximum Placement.md",
-    "Final Adv Samsung/Product Manufacturing.md",
-    "Final Adv Samsung/Physical Energy Problem.md",
-    "Samsung RandD/Panjul's Numbers.md",
-    "Samsung RandD/Not Number Theory.md",
-    "Final Adv Samsung/Minimum Knight Moves - Leetcode 1197..md",
-    "Final Adv Samsung/Maximum Number of Moves in a Grid - LeetCode.md",
-    "Final Adv Samsung/Max Sum from Leaf to Root.md",
-    "Samsung RandD/Group of Friends.md",
-    "Samsung RandD/Cube Coloring.md",
-    "Samsung RandD/Falling Trees.md",
-    "Final Adv Samsung",
+    "Rock_Climbing.cpp",
+    "List of Samsung Question.md",
+    "Final Adv Samsung/Kth Largest Element in BST.md",
+    "SamsungPractice/37/r115_2.cpp",
+    "SamsungPractice/2D Mtrix.cpp",
+    "SamsungPractice/convex hull.cpp",
+    "SamsungPractice/frogJump.cpp",
+    "SamsungPractice/Q1.cpp",
+    "SamsungPractice/README.md",
+    "SamsungPractice/piller pipe.cpp",
+    "SamsungPractice/omnious number.cpp",
     "SRI/ismail-ru-cse-39/Advance_baloon.cpp",
-    "SamsungPractice/string compression.cpp",
-    "SamsungPractice/31/conditional_solution.cpp",
-    "SRI/ismail-ru-cse-39/Selise/find_the_minimum_value_binary_search_tree.cpp",
-    "SRI/kaushal02/travelingIsFun.cpp",
-    "SRI/ismail-ru-cse-39/Advace_Travelling_salesman.cpp",
-    "SRI/ismail-ru-cse-39/practice/practice_filip_bit.cpp",
-    "SRI/ismail-ru-cse-39/hacker_rank/2D_arry.cpp",
-    "SamsungPractice/SWC_attempt2/MrKim.cpp",
+    "SRI/ismail-ru-cse-39/Advance_Pipe.cpp",
+    "SRI/ismail-ru-cse-39/M_coloring.cpp",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Detect Cycle in Directed Graph/readme.md",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Frog Jump/readme.md",
+    "Samsung RI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Laughing Bomb/readme.md",
+    "Final Adv Samsung/Old Phone.md",
+    "Samsung RI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Old Phone Calculator/readme.md",
+    "Final Adv Samsung/Ominuous Number Problem.md",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Research Center/readme.md",
+    "Final Adv Samsung/Rare element.md",
+    "Final Adv Samsung/Aeroplane Bombing.md",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/README.md",
+    "Clippings/SAMSUNG Questions.md",
+    "Final Adv Samsung/Doctor Probability.md",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Doctor's Probability/readme.md",
+    "Final Adv Samsung/Endoscope.md",
+    "Final Adv Samsung/FisherMan.md",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Endoscope/readme.md",
+    "Clippings/Ann8497's Pastebin - Pastebin.com.md",
+    "Final Adv Samsung/First Missing Positive - LeetCode.md",
+    "Samsung RandD/Chess.md",
+    "Final Adv Samsung/Minimum Knight Moves - Leetcode 1197..md",
+    "Final Adv Samsung/Oil Mines.md",
+    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Oil Mines/readme.md",
     "SamsungPractice/32/Problem Statement/2.jpeg",
     "SamsungPractice/32/Problem Statement/1.jpeg",
     "SamsungPractice/32/Problem Statement/5.jpeg",

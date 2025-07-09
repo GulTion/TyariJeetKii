@@ -81,3 +81,234 @@ Print the respective answer for T test cases in total for T lines. The answer is
 5
 15
 ```
+
+```cpp
+
+#include <iostream>
+#include <vector>
+using namespace std;
+#define pb push_back
+int mat[60][60];
+int n,m;
+bool upor(int x,int y)
+{
+	if (mat[x][y]==1||mat[x][y]==2||mat[x][y]==5||mat[x][y]==6) return true;
+	else return false;
+}
+bool nich(int x,int y)
+{
+	if (mat[x][y]==1||mat[x][y]==2||mat[x][y]==4||mat[x][y]==7) return true;
+	else return false;
+}
+bool dan(int x,int y)
+{
+	if (mat[x][y]==1||mat[x][y]==3||mat[x][y]==6||mat[x][y]==7) return true;
+	else return false;
+}
+bool bam(int x,int y)
+{
+	if (mat[x][y]==1||mat[x][y]==3||mat[x][y]==4||mat[x][y]==5) return true;
+	else return false;
+}
+
+void endo(int x, int y,int len, int vis[60][60])
+{
+	if(len==0 || mat[x][y] ==0) return;
+	vis[x][y]=1;
+	vector<pair <int,int> > v;
+	if(mat[x][y]==1)
+	{
+		if((x-1)>=1 && upor(x-1,y) ) v.pb({x-1,y});
+		if(x+1 <= n && nich(x+1,y)) v.pb({x+1,y});
+		if(y-1 >=1 && bam(x,y-1)) v.pb({x,y-1});
+		if(y+1<=m && dan(x,y+1)) v.pb({x,y+1});
+	}
+	if(mat[x][y]==2)
+	{
+		if((x-1)>=1 && upor(x-1,y) ) v.pb({x-1,y});
+		if(x+1 <= n && nich(x+1,y)) v.pb({x+1,y});
+	}
+	if(mat[x][y]==3)
+	{
+		if(y-1 >=1 && bam(x,y-1)) v.pb({x,y-1});
+		if(y+1<=m && dan(x,y+1)) v.pb({x,y+1});
+	}
+	if(mat[x][y]==4)
+	{
+		if((x-1)>=1 && upor(x-1,y) ) v.pb({x-1,y});
+		if(y+1<=m && dan(x,y+1)) v.pb({x,y+1});
+	}
+	if(mat[x][y]==5)
+	{
+		if(x+1 <= n && nich(x+1,y)) v.pb({x+1,y});
+		if(y+1<=m && dan(x,y+1)) v.pb({x,y+1});
+	}
+	if(mat[x][y]==6)
+	{
+		if(x+1 <= n && nich(x+1,y)) v.pb({x+1,y});
+		if(y-1 >=1 && bam(x,y-1)) v.pb({x,y-1});
+	}
+	if(mat[x][y]==7)
+	{
+		if((x-1)>=1 && upor(x-1,y) ) v.pb({x-1,y});
+		if(y-1 >=1 && bam(x,y-1)) v.pb({x,y-1});
+
+	}
+
+
+	for(auto i: v)
+	{
+		int xx = i.first;
+		int yy= i.second;
+		endo(xx,yy,len-1,vis);
+	}
+
+}
+int main()
+{
+	#ifndef ONLINE_JUDGE
+ 
+    freopen("input.txt", "r", stdin);
+ 
+    freopen("output.txt", "w", stdout);
+
+	#endif
+    int tt;
+    cin>>tt;
+    while(tt--)
+    {
+    	int a,b,i,j,len;
+    	int vis[60][60];
+    	cin>>n>>m>>a>>b>>len;
+    	for(i=1;i<=n;i++)
+    		for(j=1;j<=m;j++)
+    		{
+    			cin>>mat[i][j];
+    			vis[i][j]=0;
+    		}
+    		endo(a+1,b+1,len,vis);
+    		int count=0;
+    		for(i=1;i<=n;i++)
+    			for(j=1;j<=m;j++)
+    					if(vis[i][j]) count++;
+    		cout<<count<<endl;
+    }
+
+
+	return 0;
+
+}
+```
+# Approuch 2
+
+```cpp
+#include <bits/stdc++.h>
+#define ll long long
+#define pub push_back
+#define fast                      \
+    ios_base::sync_with_stdio(0); \
+    cin.tie(0);
+using namespace std;
+bool upor(int i)
+{
+    return (i == 1 || i == 2 || i == 4 || i == 7);
+}
+bool niche(int i)
+{
+    return (i == 1 || i == 2 || i == 5 || i == 6);
+}
+bool bame(int i)
+{
+    return (i == 1 || i == 3 || i == 6 || i == 7);
+}
+bool dane(int i)
+{
+    return (i == 1 || i == 3 || i == 4 || i == 5);
+}
+int a[100][100];
+bool vis[100][100];
+int n, m;
+vector<pair<int, int>> vp = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+bool valid(int i, int j)
+{
+    return (i >= 0 && i < n && j >= 0 && j < m);
+}
+int bfs(int si, int sj, int l)
+{
+    if (a[si][sj] == 0)
+        return 0;
+    queue<pair<pair<int, int>, int>> q;
+    q.push({{si, sj}, 1});
+    vis[si][sj] = true;
+    int ans = 0;
+    while (!q.empty())
+    {
+        pair<pair<int, int>, int> p = q.front();
+        q.pop();
+        int i = p.first.first;
+        int j = p.first.second;
+        int c = p.second;
+        if (c > l)
+            continue;
+        ans++;
+        // cout << i << " " << j << endl;
+        for (int d = 0; d < 4; d++)
+        {
+            int xi = i + vp[d].first;
+            int xj = j + vp[d].second;
+
+            if (valid(xi, xj) && !vis[xi][xj] && a[xi][xj] != 0)
+            {
+                if (d == 0 && dane(a[i][j]) && bame(a[xi][xj]))
+                {
+                    vis[xi][xj] = true;
+                    q.push({{xi, xj}, c + 1});
+                }
+                else if (d == 1 && bame(a[i][j]) && dane(a[xi][xj]))
+                {
+                    vis[xi][xj] = true;
+                    q.push({{xi, xj}, c + 1});
+                }
+                else if (d == 2 && niche(a[i][j]) && upor(a[xi][xj]))
+                {
+                    vis[xi][xj] = true;
+                    q.push({{xi, xj}, c + 1});
+                }
+                else if (d == 3 && upor(a[i][j]) && niche(a[xi][xj]))
+                {
+                    vis[xi][xj] = true;
+                    q.push({{xi, xj}, c + 1});
+                }
+            }
+        }
+    }
+    return ans;
+}
+void solve()
+{
+    int si, sj, l;
+    cin >> n >> m >> si >> sj >> l;
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < m; j++)
+        {
+            vis[i][j] = false;
+            cin >> a[i][j];
+        }
+    }
+
+    cout << bfs(si, sj, l) << endl;
+}
+int main()
+{
+    fast;
+    ll t;
+    cin >> t;
+    while (t--)
+    {
+        solve();
+    }
+    return 0;
+}
+
+```
