@@ -11,15 +11,6 @@ tags:
 status: ""
 explored: false
 ---
-## Max Sum from Leaf to Root
-
-locked
-
-- [Problem](https://www.hackerrank.com/contests/codeshala-pps-24/challenges/max-sum-from-leaf-to-root)
-- [Submissions](https://www.hackerrank.com/contests/codeshala-pps-24/challenges/max-sum-from-leaf-to-root/submissions)
-- [Leaderboard](https://www.hackerrank.com/contests/codeshala-pps-24/challenges/max-sum-from-leaf-to-root/leaderboard)
-- [Discussions](https://www.hackerrank.com/contests/codeshala-pps-24/challenges/max-sum-from-leaf-to-root/forum)
-
 Find the maximum sum leaf to root path in a Binary Search Tree.
 
 You are given an array of size N.Firstly build the BST and then among all the path from leaf to root find the maximum value among all the paths.
