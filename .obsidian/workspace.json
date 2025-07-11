@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "List of Samsung Question"
             }
+          },
+          {
+            "id": "d6f826287f6e357a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Final Adv Samsung/Crow Pots.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Crow Pots"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,49 +205,53 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "cd16dfa6fd9936ed",
+  "active": "d6f826287f6e357a",
   "lastOpenFiles": [
-    "OldPhone.cpp",
     "List of Samsung Question.md",
-    "Index.md",
-    "Final Adv Samsung/Jewellery Problem.md",
-    "Samsung RI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Jwellery Maze/solution.cpp",
-    "Samsung RI/JewelMaze.cpp",
-    "OldPhone.bin",
-    "SamsungPractice/6. jewel maze.cpp",
-    "Final Adv Samsung/Convex Hull.md",
-    "SamsungPractice/02/02.cpp",
-    "SamsungPractice/BFS/8. Laughing gas.cpp",
-    "SamsungPractice/SWC_attempt2/omniousNumber.cpp",
-    "SamsungPractice/SWC_attempt2/convexHull.cpp",
-    "SamsungPractice/convex hull.cpp",
-    "SamsungPractice/laughing gas.cpp",
-    "Samsung RI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Laughing Bomb/readme.md",
-    "Final Adv Samsung/Laughing Bomb.md",
-    "Final Adv Samsung/Ominuous Number Problem.md",
-    "Final Adv Samsung/Old Phone.md",
-    "SamsungPractice/32/Problem Statement/2.jpeg",
-    "Final Adv Samsung/Minimum Knight Moves - Leetcode 1197..md",
-    "Final Adv Samsung/Doctor Probability.md",
-    "Samsung RI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Old Phone Calculator/readme.md",
-    "Samsung RandD/Froggie Can Only Jump Forward.md",
+    "SamsungPractice/17. Crow Pot.cpp",
+    "Final Adv Samsung/classic 01 Knapsack.md",
+    "Final Adv Samsung/a+b-cd+e=23.md",
+    "Final Adv Samsung/Warmholes.md",
+    "Final Adv Samsung/Tunnel Construction.md",
+    "Final Adv Samsung/Travelling SalesPerson.md",
+    "Final Adv Samsung/Tower Construction.md",
+    "Final Adv Samsung/Tallest Billboard - LeetCode.md",
+    "Final Adv Samsung/Sum of Nodes in Kth Level.md",
+    "Final Adv Samsung/Sinkhole Maximization.md",
+    "Final Adv Samsung/Samsung 2017.md",
+    "Final Adv Samsung/Sales booth.md",
+    "Final Adv Samsung/Round Trip II - CSES.md",
+    "Final Adv Samsung/Rock Climbing.md",
     "Final Adv Samsung/Rare element.md",
     "Final Adv Samsung/Physical Energy Problem.md",
-    "Final Adv Samsung/Product Manufacturing.md",
+    "Final Adv Samsung/Ominuous Number Problem.md",
+    "Final Adv Samsung/Old Phone.md",
     "Final Adv Samsung/Oil Mines.md",
+    "Final Adv Samsung/Minimum Knight Moves - Leetcode 1197..md",
+    "Final Adv Samsung/Men's Restroom Problem.md",
     "Final Adv Samsung/Maximum Number of Moves in a Grid - LeetCode.md",
     "Final Adv Samsung/Max Sum from Leaf to Root.md",
     "Final Adv Samsung/Let's Create Equal Wall.md",
+    "Final Adv Samsung/Laughing Bomb.md",
     "Final Adv Samsung/Kth Largest Element in BST.md",
-    "SamsungPractice/README.md",
-    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Detect Cycle in Directed Graph/readme.md",
-    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Frog Jump/readme.md",
-    "SRI/Rahat-Khan-Pathan-Samsung-Bangladesh-Pre-Employment-Coding-Test-Preparation/Research Center/readme.md",
-    "Final Adv Samsung/Aeroplane Bombing.md",
-    "SamsungPractice/32/Problem Statement/1.jpeg",
+    "Final Adv Samsung",
+    "SamsungPractice/crow pot.cpp",
+    "SamsungPractice/SwC-Pro-main/Completed/two_subarrays_max_difference.cpp",
+    "SamsungPractice/SwC-Pro-main/Completed/parking_car.cpp",
+    "SamsungPractice/SwC-Pro-main/Completed/find_d_between_2_arrays.cpp",
+    "SamsungPractice/SwC-Pro-main/Completed/cylinder.cpp",
+    "SamsungPractice/32/Problem Statement/7.jpeg",
+    "SamsungPractice/32/Problem Statement/6.jpeg",
     "SamsungPractice/32/Problem Statement/5.jpeg",
     "SamsungPractice/32/Problem Statement/4.jpeg",
     "SamsungPractice/32/Problem Statement/3.jpeg",
-    "SamsungPractice/32/Problem Statement/7.jpeg"
+    "SamsungPractice/32/Problem Statement/2.jpeg",
+    "SamsungPractice/32/Problem Statement/1.jpeg",
+    "SamsungPractice/SwC-Pro-main/min_cost.cpp",
+    "SamsungPractice/SwC-Pro-main/millitary_base_nodes_test_case.jpg",
+    "SamsungPractice/SwC-Pro-main/millitary_base_nodes.cpp",
+    "SamsungPractice/SwC-Pro-main/low_speed.cpp",
+    "SRI/shreyanshchordia-Graph_Algorithms/img/pipes.png",
+    "SRI/shreyanshchordia-Graph_Algorithms/img/airplane.png"
   ]
 }
